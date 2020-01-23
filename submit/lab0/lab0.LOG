@@ -1,0 +1,1591 @@
+Script started on 2020-01-23 10:15:12-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+eshapir9@g7-36:~/tmp/lab0$ lw[Ks ~/.ssh
+ls: cannot access '/home/eshapir9/.ssh': No such file or directory
+eshapir9@g7-36:~/tmp/lab0$ ls ~/.ssh;
+ls: cannot access '/home/eshapir9/.ssh': No such file or directory
+eshapir9@g7-36:~/tmp/lab0$ ..
+bash: ..: command not found
+eshapir9@g7-36:~/tmp/lab0$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+eshapir9@g7-36:~/tmp/lab0$ ..
+bash: ..: command not found
+eshapir9@g7-36:~/tmp/lab0$ ...
+bash: ...: command not found
+eshapir9@g7-36:~/tmp/lab0$ cd ~
+eshapir9@g7-36:~$ ls
+a.out	 cs120.c    Downloads  lab	    Music     pound.c	 tmp
+Arduino  Desktop    hello      multTable    Pictures  Public	 Videos
+cs120	 Documents  hello.c    multTable.c  pound     Templates
+eshapir9@g7-36:~$ ls~[K ~/.ssh;
+ls: cannot access '/home/eshapir9/.ssh': No such file or directory
+eshapir9@g7-36:~$ cd tmp
+eshapir9@g7-36:~/tmp$ cd ..
+eshapir9@g7-36:~$ ls
+a.out	 cs120.c    Downloads  lab	    Music     pound.c	 tmp
+Arduino  Desktop    hello      multTable    Pictures  Public	 Videos
+cs120	 Documents  hello.c    multTable.c  pound     Templates
+eshapir9@g7-36:~$ cd tmp
+eshapir9@g7-36:~/tmp$ ls ~/.ssh
+ls: cannot access '/home/eshapir9/.ssh': No such file or directory
+eshapir9@g7-36:~/tmp$ cd[K[Kls
+lab0
+eshapir9@g7-36:~/tmp$ cd lab0
+eshapir9@g7-36:~/tmp/lab0$ ls
+lab0.LOG
+eshapir9@g7-36:~/tmp/lab0$ cd lab0.LOG[K[K[K[K[K[K[K[K[K[K[K~/.SSH
+bash: /home/eshapir9/.SSH: No such file or directory
+eshapir9@g7-36:~/tmp/lab0$ ~/s[K.ssh;
+bash: /home/eshapir9/.ssh: No such file or directory
+eshapir9@g7-36:~/tmp/lab0$ ls ~/.ssh[K[K[K[K[K[K[K[K[Kssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/eshapir9/.ssh/id_rsa): 
+Created directory '/home/eshapir9/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/eshapir9/.ssh/id_rsa.
+Your public key has been saved in /home/eshapir9/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:2LbDeMZpKQYpBC147CwKLt76jIm7IgjuB9im23OlTyo eshapir9@g7-36
+The key's randomart image is:
++---[RSA 2048]----+
+|oo               |
+|o.+              |
+| =.              |
+|o.o  . o         |
+|=o. o . S        |
+|=oo. ..= +       |
+|*oo  o= @        |
+|*+Eoo+ = .       |
+|OO=*...          |
++----[SHA256]-----+
+eshapir9@g7-36:~/tmp/lab0$ ls
+lab0.LOG
+eshapir9@g7-36:~/tmp/lab0$ cd lab0.LOG 
+bash: cd: lab0.LOG: Not a directory
+eshapir9@g7-36:~/tmp/lab0$ ls
+lab0.LOG
+eshapir9@g7-36:~/tmp/lab0$ ssh-copyI[K-id -i user@re,[Kmote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eshapir9/.ssh/id_rsa.pub"
+The authenticity of host 'remote (128.226.114.201)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.204' to the list of known hosts.
+user@remote's password: 
+Permission denied, please try again.
+user@remote's password: 
+Permission denied, please try again.
+user@remote's password: 
+user@remote: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+eshapir9@g7-36:~/tmp/lab0$ ls ~/.ssh
+id_rsa	id_rsa.pub  known_hosts
+eshapir9@g7-36:~/tmp/lab0$ ;s[K[Kcd ..
+eshapir9@g7-36:~/tmp$ c[Kls
+lab0
+eshapir9@g7-36:~/tmp$ cd lab0
+eshapir9@g7-36:~/tmp/lab0$ C[K+[K. ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+eshapir9@g7-36:~/tmp/lab0$ cd ..
+eshapir9@g7-36:~/tmp$ . ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+eshapir9@g7-36:~/tmp$ cd ..
+eshapir9@g7-36:~$ . ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+eshapir9@g7-36:~$ cd..[K[K ..
+eshapir9@g7-36:/home$ . ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+eshapir9@g7-36:/home$ cd[K[Kls
+aabrey1      cviezel1	       jlei23	    nananth1	       slellis1
+aagraw11     cwetzel2	       jlevin38     nanohub	       slin100
+aaharon1     cwickiz1	       jli452	    nate	       slin111
+aakin1	     cwong11	       jli461	    nayan1	       sliu
+aalamer1     cyang58	       jliebe12     naydin2	       sliu22
+aambilw1     cybersec	       jlin129	    nayef	       slnu1
+aamer	     czhang27	       jlin269	    nbellam1	       sloscal1
+aandhar2     czhou5	       jliu212	    nbethan1	       smahmud2
+aanveka2     dallen9	       jloew	    nboeker1	       smanne1
+aashraf1     danzelo1	       jlouie2	    nboyd3	       smartpark
+abalkum      davehall	       jlu56	    nburzyn1	       smasara1
+abelmna1     davehallldap      jmcmah10     ncilsal2	       smason8
+abeltre1     davidl	       jmeguir1     ncorvi1	       smestry1
+abet	     dbalkan	       jmessin2     ndagost1	       smircha1
+abetrev      dbottch1	       jmitche6     ndedios1	       smoore4
+abettest     dchhabd1	       jmohrma1     ndefeli2	       smorram1
+abhagwa1     dcordei1	       jmontgo4     ndeshmu1	       smorri11
+abharan1     ddas1	       jmontgo5     NFS11	       smukka1
+abhat3	     ddefazi1	       jocampo1     ngarg3	       snagarak1
+abixby1      ddemicc1	       josgood2     ngawade1	       snatu1
+abloodg1     ddesai9	       joyedap1     ngoyal1	       snimhan1
+abommin1     ddhuri1	       jpan33	    ngreene5	       software
+abozkur1     ddoddag1	       jparikh1     ngrosso1	       soshay1
+aburke5      devtyushkin       jpark349     ngujar1	       sozdemi2
+acanino1     dfan2	       jphilem1     ngupta4	       sozden1
+acarter6     dfeinma1	       jquezad1     nhofman1	       spalshe1
+aceylan1     dferna15	       jramli1	    nilton	       spark215
+achaud12     dfitzge3	       jrandha1     nkimura	       sparra2
+achaud15     dfletch1	       jraskin3     nkokne1	       sparuch1
+achaudh9     dgarden1	       jren18	    nkommur1	       spatwa1
+achavan4     dgaviol1	       jrising1     nli19	       spradha1
+achen172     dgeorge7	       jrodr151     nmarman1	       sraghav2
+acheseb1     dglazer1	       jrosen46     nmishra1	       srally1
+achhabr1     dgleaso2	       jrosen52     nmonast1	       srao12
+achotal1     dgouvou1	       jrosswog     npatel62	       srapell2
+aclancy1     dgriffith1        jrothbe3     npatel64	       sraut1
+acmweb	     dharper1	       jryder	    npatil5	       srazak
+acohen13     dhintz1	       jsanch49     npelleg1	       srevade1
+acohen89     dhuang43	       jschmit2     npeters1	       sriram
+acullo1      dickman	       jseiber1     npoda1	       srupnar1
+acurrer1     dima	       jshaikh1     nreisch1	       ss1
+adesu1	     dirwin1	       jsharke	    nrogosz1	       ssahabh1
+adhruv1      djacobs7	       jsiegel6     nruizto1	       ssahani1
+adilliw1     djagtap1	       jsimon7	    nsamant1	       ssalick1
+admread      djhender	       jsimone1     nsane3885	       ssamate1
+adnan	     djwillia	       jskovro1     nsharm11	       ssanaga1
+adogana1     dkim17	       jstanle2     nstecyn1	       ssankhe1
+advweb	     dkunkel	       jstein27     ntinen	       ssarems1
+aeghbal1     dlam15	       jsteinberg   nuruchi1	       ssawwan1
+aeker1	     dli114	       jstpier1     nvallej1	       ssaxena3
+aevans1      dlockye1	       jstrohm1     nvander1	       ssayyad1
+afarrel3     dlundgren	       jstruck1     nwallin1	       ssenkes1
+afelsen3     dmacejk1	       jsu6	    nxu4	       ssenthil
+afergus6     dmaisur1	       jsuhr2	    oakgrove	       sshah90
+aferrei3     dmeisel1	       jsutton3     oalamut1	       ssharm53
+agarcia3     dmosess1	       jswift3	    ocinar1	       sshin
+agarcia4     dmu1	       jszacha1     ocummin1	       ssing117
+agarrit1     dnair3	       jterner1     ohatwal1	       ssingh99
+ageorg39     dnarasi1	       jthakka1     oiffert1	       ssivaku1
+agermos1     doneal1	       jthoma64     okilic1	       ssultan6
+agill10      dpan8	       jtricoz1     okircan1	       sswetha
+agim1	     dpaskal1	       jvail1	    okulkar4	       stammis1
+agjonba1     dpatel39	       jwang36	    omavitu1	       stapadi1
+agoetz3      dpatil2	       jweacho1     onur	       stapkee1
+agoncal2     dpaul12	       jweng8	    oolojed1	       star
+agrace2      dpetzol2	       jwetzel1     optiweb	       steflik
+agreenb3     dpham4	       jwhitak4     osanile1	       sthorat2
+agross22     dreyes12	       jwhite48     osayili1	       sthorat3
+aguarin3     drichards1        jwill128     osnetsvn	       stoke1
+agujara1     drseuss	       jwolter1     osweb	       studio
+agummal1     dryan6	       jwong123     oudawan1	       studio.nobackup
+aheffer1     dschroe1	       jwoyevo1     pacts	       sunyibo
+ahoriha1     dschust2	       jwu166	    pdeshpa2	       svibhut1
+ajain13      dskoda1	       jwu6	    pdeshpa3	       svishwa2
+ajain35      dtelson1	       jyadav1	    pdexter1	       swaghma1
+ajasper      dthakur1	       jyao	    pfeng1	       swang130
+ajimen29     dthatch1	       jyao6	    phao3	       swang206
+ajinete1     dtierne2	       jyoo45	    phdweb	       swang214
+ajohan78     dtimmer1	       jzee2019     phil	       sweimer1
+ajoshi1      dtownle1	       jzhang	    phmsvn	       syarram1
+akadu1	     dwalcot1	       kagyapo1     pixelcode	       syeung10
+akafore1     dwalter2	       kandrad2     pkandhi1	       sysadmin
+akaleli1     dwang84	       kang	    pkapoor2	       syudhoa1
+akancha1     dyang32	       kartik	    pkariya1	       szaman5
+akapur4      dzhang46	       kbahulkar    pkarthi1	       szhai2
+akayhan1     eadler1	       kbaumst2     pkaushi1	       szhan188
+akenjal1     eaktas	       kchanda2     pkulkar3	       szhang
+akenned8     ealdreabi	       kchings1     plnu2	       szhu5
+akhot1	     eates1	       kchiu	    plonkar1	       tabdazi1
+akulka17     ebasan1	       kcitlak1     pmadden	       tagrawa1
+akunz3	     ebaule1	       kcox4	    pmaino1	       talon1
+alal2	     ebenz1	       kdamodh1     pmcgoug1	       tameesh
+alee884      ebonzek1	       kdayala1     pokurog1	       tbabako1
+alee889      ebreban1	       kdeshpa5     ppagar1	       tballin1
+alevenb1     ecetine2	       kdh	    pparekh1	       tbarten1
+aliang30     eciraco1	       kdoughe2     pparmar2	       tbartens
+aliu81	     ecodrin1	       kdublin1     ppatel3	       tbhagoo1
+alongo5      ecoolid1	       kfang2	    ppatel85	       tbrentar
+amadnic2     edede1	       kferna11     ppatel95	       tbrown57
+amahaja4     edurney1	       kgaffne1     ppatil7	       tchan29
+amathe13     eelliot4	       kgajwan1     ppawar3	       tcheng8
+amccart9     eetheri1	       kgell1	    ppriyam1	       tchu4
+amchugh2     eezor1	       kghose	    pqi1	       tdevadit
+amcmanu4     efergus3	       kgiampo1     prasanna	       test
+ameya	     egeorge8	       kgoel1	    preddir1	       tfan4
+amillik1     ehaddad1	       kgulve1	    preddyl1	       tfasano1
+amishr11     ehuang35	       khaled	    project	       tgabrie2
+anaik4	     einal1	       khanson3     projects	       tgilber5
+anand	     eisikte1	       kharras	    projects.nobackup  tgisi1
+anayak2      ejang1	       khenneb1     psaha4	       tgonzag1
+aneeman      elakic1	       khill9	    psaha5	       tgrusze1
+aneesh	     elancer1	       khirana1     psahu1	       tgundel1
+anikam1      elanger4	       khsieh3	    psammon1	       tgurung2
+ankit	     elurye1	       kjayapr1     psehraw1	       thalai1
+aorella1     emarang1	       kjones47     psemegr1	       thoa1
+apadman1     emattison	       kkasara1     pshang1	       thoelze1
+apatel	     emcnier2	       kkoka1	    pshrest1	       thorowi1
+apateri1     emergepl	       kkulkar3     psilves1	       thung1
+aperlow1     emoelle2	       kkumawa1     psin	       thur1
+aplotko1     engage	       kkurtz	    psingh43	       ticket
+aputnal1     epalani1	       klewis24     psinha1	       tkapadi1
+aquach1      epona	       kliu20	    ptanpur1	       tkatz1
+arahma	     erdil	       kmahmou1     ptezcan1	       tkump1
+aravind      eserdar1	       kmanriq1     pthakka4	       tli16
+arayala1     eshapir9	       kmore4	    ptilley1	       tliu76
+arizzo10     estern7	       kmoshie1     puppula1	       tloja1
+arohill1     et		       kna3	    pvalenta	       tlucher1
+artir	     eterrac1	       knadeem1     pwakodi1	       tman1
+asahai1      etilden	       knip1	    pwalke1	       tmarder1
+asawant2     evorosh1	       koneill7     pwang22	       tmatusz1
+asawwal1     eway1	       kong	    pweb	       tpmsim
+aschwa30     eyalcin1	       kpathak1     pwilber1	       tquiles1
+aselvan1     eyavasc1	       kphill11     pyang	       trecupe1
+aservet1     ezagnus1	       kpierce5     pzhao3	       tredban1
+asharif1     faculty	       kragava1     qjia4	       tsharma6
+asharm14     faculty.nobackup  kramana1     qliang8	       tshores1
+asharm47     facweb	       kruan1	    qxiong1	       tsrivas1
+ashimiz1     fafram1	       ksaini1	    qzhang61	       tstache1
+ashimiz2     falmato1	       ksawant1     raj		       tsteige1
+ashinde3     fantona1	       ksingh35     rambast1	       tton1
+ashiral1     fbrione1	       ksingh42     ramsurat1	       tunsel1
+asing134     fchai1	       kstigle1     rbadada1	       twang61
+astensl1     femmanu1	       ksun1	    rberlan1	       twellin1
+astjohn      find	       kthote1	    rbey1	       twilli81
+astrong3     fitz	       ktiao1	    rbhowmik	       twojtuk1
+athaile1     fmri	       kusovski     rblazej1	       twrigh13
+athakur2     foreman	       kvartak2     rchen102	       txu
+atiwari3     forweb	       kwadeka1     rcheung5	       tzhao7
+atom2	     fscott1	       kwallac6     rchowda1	       ubalci1
+atweedy1     ftahmas1	       kwan2	    rcomerf1	       udeshpa1
+auy2	     gadu	       kwill113     rdelval1	       uergash1
+avanroi1     gaic	       kwrite1	    rdhuri1	       ukayaal1
+avenetos1    gaming	       kyan12	    reckert	       umrigar
+avinan	     garrison	       kyi3	    regress	       upe
+aviswan3     gbejara1	       lander	    remadm	       upuvvad1
+avora4	     gbenyis1	       larson	    rerinfo1	       urahman1
+awalley1     gbiyani1	       lcanale2     reswara1	       usatlas1
+awaring1     gchen21	       lcoats1	    reu		       usatlas2
+awest3	     gcrl	       ldo	    reu09	       uscms01
+awilso16     geert	       legion	    reustac1	       uscms02
+aworm1	     ggonzal9	       legion2	    rfujita1	       vbadagu1
+ayenugu1     ghlp	       lenny	    rgeary1	       vbakshi1
+ayeung9      ghose	       levliya1     rgirong1	       vbandew1
+azaccag1     ghyan	       lgustaf1     rgollap1	       vbeauge1
+balandi1     gkumar1	       lhsueh1	    rgonzal	       vbhosal1
+baltar	     gliu10	       lijun	    rgunczl1	       vchaska1
+barry	     globus	       liymn	    rhainin1	       vdevara2
+bbeeral1     gmore3	       lkendal1     richardsond        vinkolar
+bbrea1	     gmyers	       lkollur1     rimai1	       vkatrag2
+bbuchan1     grad	       llasurd1     rimbro1	       vkumari1
+bchadha1     grad.nobackup     llu17	    rjoseph3	       vlsiweb
+bchen111     grase	       lmanwan1     rkaur21	       vmalcev1
+bchen114     grattih1	       lok	    rkelley2	       vmunish1
+bchoudh4     gredozu1	       lornawel     rklein14	       vparekh1
+bchrobot     grid	       lrosenb1     rkugver1	       vragovs1
+bcohada1     gridex	       lsc01	    rkulka22	       vsingh2
+bdeore1      gridweb	       lsearsangel  rlangen1	       vtran6
+bdevrie1     gsivana1	       lsunny1	    rlevass1	       vyadav1
+bdikmen1     gsoweb	       ltaveir1     rlotlik1	       watadv
+bdobriy1     gsteinb1	       lwisdom1     rmarvin1	       wbennet1
+beaumont     gstodda1	       lxu31	    rmccaul1	       wcornej1
+bestus1      gtan	       lyadagi1     rmccorm4	       wdai
+bgrant11     gtaskin1	       lyalcin1     rmei6	       wduan1
+bharari1     guydosh	       lyu	    rmeliti1	       weinscgg
+bhogan9      gvalenc2	       maber1	    rmittal1	       welu
+bizar1	     gwang23	       maguila2     rmusale1	       whuebne1
+bkalayc1     gwilber1	       mallingt     rnatara2	       wkeller3
+bkeuria1     gwint1	       maple	    robotics	       wkenned1
+bklayma1     gyerrad1	       marsene1     rorourk2	       wleng1
+blackburn    hahuja1	       marss86	    rosew	       wliu5
+blee75	     halzein1	       marysomma1   rpena9	       wliu68
+blewis9      haygan1	       matlab	    rpokhar1	       wmeng
+bliebe1      hbagdi1	       maziz3	    rquinli1	       wni
+bliew1	     hbalu1	       mbagonis5    rrausha1	       wyang
+blong	     hbrown10	       mbayhoc1     rriess1	       wzhangc1
+blu20	     hburkha1	       mbellus1     rriley	       wzhao1
+bmarti38     hburns3	       mbradsh3     rsaptar2	       xchen269
+bni2	     hchen113	       mcaldro1     rsaraf1	       xdeng7
+bpoliks      hdesai1	       mcetin3	    rsaxena3	       xgao1
+bpreise1     head	       mchen12	    rsayers1	       xgarcia2
+brathke1     hfu11	       mcohen76     rshahul1	       xguo38
+brichar7     hgarg1	       mcole8	    rshand1	       xianli
+brobergj     hjia3	       mdamiat1     rsharpe1	       xli180
+brood	     hkang	       mdang1	    rshendl1	       xli210
+brose7	     hkilic2	       mdelgad1     rsmith23	       xliang24
+brothbe3     hkulkar1	       mdevend1     rsomapu1	       xluo22
+bsadhna1     hlauder1	       mdobies1     rsumit	       xpeng
+bsaliba1     hlum1	       meng	    rtes-mc	       xshi1
+bsendir1     hmahaja1	       merwyn	    rthaiva1	       xu_haohang
+bstace1      hmanda1	       mfarrel8     rthete1	       xwang247
+bsweet2      hmense1	       mfata3	    rwang4	       xwei
+btas1	     hmulla1	       mforcella    rwright3	       xwu30
+btaylor1     hnikam1	       mfoster7     ryder	       xwu9
+bugzilla     hoeppner	       mgadi1	    rzaveri1	       xyu44
+bvuduth1     hpacher1	       mghayoumi    rzhang	       xzhan215
+bwang2	     hparmar1	       mghosal1     rzheng14	       xzhan244
+bweiss1      hpham3	       mgogats1     sacosta8	       xzhang7
+bwong28      hqin4	       mgomez4	    sagrawa4	       xzhang99
+byan2	     hrasal1	       mgovinda     sahire1	       yanwang
+byang20      hribic1	       mgreen	    salqaht1	       yaoliu
+bzee1	     hrode1	       mgupta3	    sameer	       ybai4
+bzhang73     hroeder1	       mhems1	    samgrid	       ychandi1
+cadathlon    hsloan1	       mhubli1	    samiri1	       ychen161
+canlin	     hstein6	       mike	    samoore	       ychen415
+capsweb      huilu	       millerti     santobu	       ydaggup1
+cauchym      hvadoda1	       mis	    sarnold4	       yding25
+cayachi1     hwang161	       mjain8	    saswani1	       yguo71
+cazukwu1     hwu71	       mjiang39     satoshi	       yhan1
+cbanvar1     hxiao4	       mjones46     saurabh	       yhu15
+cbartol1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbehan1      hyi2	       mkayaalp     sbadri1	       yhuan171
+cbond2	     hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbrugna1     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cchen17      hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen8	     hzou1	       mlatypo1     sbdc	       yjagdal1
+cchiauz1     ids-web	       mlewis	    sbengal2	       yjiang5
+cchilds1     igomez1	       mlin71	    sbettad1	       yjun1
+cchoi20      igoreli1	       mliu56	    sblack3	       ykucuk1
+ccipp1	     ikilinc1	       mlrg	    sboggar1	       yli241
+ccloss1      iliano	       mmadhan1     sbohn1	       yli418
+ccui5	     indangered        mmallow1     sbommal1	       ylin
+ccui7	     intrieri	       mmangal1     sbourke1	       ylin145
+cdaware1     iperdom1	       mmillar3     sbravo1	       ylin153
+cdf	     isarfat1	       mmille60     scanavan	       yliu158
+cdimegl1     israat	       mmuffol1     scao16	       yliu377
+cdonovi1     ivdgl	       mnorton1     schaska1	       yliu401
+cdowdle1     iwobi	       mnussba2     schaud16	       ylu0
+cfiutak1     jabbott3	       mobicom2016  schen232	       ypan13
+cglashe1     jalbert5	       molavar1     schinch1	       ypan3
+cgopina1     jalexa10	       monalisa     scogay1	       ypatel9
+cguo9	     jamjoom	       mozkaya1     scraver	       ysaglam1
+cgupta	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cguvenc1     jarora2	       mparker4     sdesai12	       ysun106
+chanusa      jawayan1	       mparlaw1     sdesai13	       ysun59
+chao	     jbabbit1	       mpatel43     sdesai14	       ytang4
+chart7	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+cherna19     jbarret3	       mperaza1     sdhanas1	       ytao15
+chouck	     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chuang31     jberg3	       mplohet1     sdias1	       yxu
+ciweb	     jburns11	       mpressi1     sdinc1	       yxu133
+cjenkin1     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjian1	     jcen3	       mreale	    sdoski1	       yyang202
+cjiang21     jchen249	       mreid9	    sdss	       yzhan202
+cjoaqui1     jchen441	       mriver25     secarch	       yzhan401
+cjones43     jcipoll1	       mrldata	    secweb	       yzhang25
+ckshirs1     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckulkar2     jcope1	       mroshid1     sgallag3	       zaugust1
+clandgr1     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+cli22	     jdaley2	       mruffne1     sgcpu	       zdu
+clin18	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clindsa1     jderder1	       mschult7     sgowdra1	       zfield2
+cliu118      jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+clow1	     jditkof1	       msha	    sgrimm2	       zge3
+cmachaf1     jdua1	       mshah38	    sgupta38	       zguo
+cmcborr1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmmiller     jeimer1	       msheldo2     shan	       zhangying
+cmontgo1     jeipp1	       mshelto3     shane	       zhongfei
+cmoore2      jelwell	       msim	    shanson1	       zhuang28
+cmunro1      jelwell1	       mslocum1     shanuma1	       zhuang80
+colinb	     jeymer1	       mspano2	    shegde1	       ziegler
+cpandit1     jfeinla1	       msweb	    shuhong	       zkabari1
+cpingal1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cquelle3     jgallia1	       mtan23	    sigda	       zli137
+cs350	     jgoldb42	       mthakka2     simple	       zli160
+cs441-test   jgumien1	       mthanga1     simplepath	       zli191
+cs540sw      jgwak1	       mtullo1	    sjain13	       zli192
+csabet01_oc  jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet02_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet03_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+cschnei3     jhastie1	       mvani1	    skaldat1	       zqiu4
+csherla1     jherath1	       mwarfor1     skalidi1	       zseymou1
+csiegle1     jhertik1	       mweb	    skbu007	       zshu1
+csimak1      jhicks	       mwerner7     skolhap1	       zwang252
+cs-ipc	     jhuyghu1	       myan28	    skonath1	       zwen7
+csperry1     jjacob44	       myuksek1     skorade1	       zzhan145
+csweb	     jjeanba2	       mzheng47     skothap1	       zzhan150
+ctran20      jjjcart	       mz-matlab    skremli1	       zzhan218
+ctrembl1     jjose1	       nabate1	    skumar	       zzhang27
+cutler	     jkassne1	       nael	    skunz1
+eshapir9@g7-36:/home$ es[K[Kcd eshapir0[K9
+eshapir9@g7-36:~$ ;[Kls
+a.out	 cs120.c    Downloads  lab	    Music     pound.c	 tmp
+Arduino  Desktop    hello      multTable    Pictures  Public	 Videos
+cs120	 Documents  hello.c    multTable.c  pound     Templates
+eshapir9@g7-36:~$ /[K. ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+eshapir9@g7-36:~$ gedit . [K[K. ~umrigar/cs240/bin/student.profile
+ls  cd ..
+eshapir9@g7-36:~$ cd ..
+eshapir9@g7-36:/home$ cd ..[K[K[K[K[K~[Kls
+aabrey1      cviezel1	       jlei23	    nananth1	       slellis1
+aagraw11     cwetzel2	       jlevin38     nanohub	       slin100
+aaharon1     cwickiz1	       jli452	    nate	       slin111
+aakin1	     cwong11	       jli461	    nayan1	       sliu
+aalamer1     cyang58	       jliebe12     naydin2	       sliu22
+aambilw1     cybersec	       jlin129	    nayef	       slnu1
+aamer	     czhang27	       jlin269	    nbellam1	       sloscal1
+aandhar2     czhou5	       jliu212	    nbethan1	       smahmud2
+aanveka2     dallen9	       jloew	    nboeker1	       smanne1
+aashraf1     danzelo1	       jlouie2	    nboyd3	       smartpark
+abalkum      davehall	       jlu56	    nburzyn1	       smasara1
+abelmna1     davehallldap      jmcmah10     ncilsal2	       smason8
+abeltre1     davidl	       jmeguir1     ncorvi1	       smestry1
+abet	     dbalkan	       jmessin2     ndagost1	       smircha1
+abetrev      dbottch1	       jmitche6     ndedios1	       smoore4
+abettest     dchhabd1	       jmohrma1     ndefeli2	       smorram1
+abhagwa1     dcordei1	       jmontgo4     ndeshmu1	       smorri11
+abharan1     ddas1	       jmontgo5     NFS11	       smukka1
+abhat3	     ddefazi1	       jocampo1     ngarg3	       snagarak1
+abixby1      ddemicc1	       josgood2     ngawade1	       snatu1
+abloodg1     ddesai9	       joyedap1     ngoyal1	       snimhan1
+abommin1     ddhuri1	       jpan33	    ngreene5	       software
+abozkur1     ddoddag1	       jparikh1     ngrosso1	       soshay1
+aburke5      devtyushkin       jpark349     ngujar1	       sozdemi2
+acanino1     dfan2	       jphilem1     ngupta4	       sozden1
+acarter6     dfeinma1	       jquezad1     nhofman1	       spalshe1
+aceylan1     dferna15	       jramli1	    nilton	       spark215
+achaud12     dfitzge3	       jrandha1     nkimura	       sparra2
+achaud15     dfletch1	       jraskin3     nkokne1	       sparuch1
+achaudh9     dgarden1	       jren18	    nkommur1	       spatwa1
+achavan4     dgaviol1	       jrising1     nli19	       spradha1
+achen172     dgeorge7	       jrodr151     nmarman1	       sraghav2
+acheseb1     dglazer1	       jrosen46     nmishra1	       srally1
+achhabr1     dgleaso2	       jrosen52     nmonast1	       srao12
+achotal1     dgouvou1	       jrosswog     npatel62	       srapell2
+aclancy1     dgriffith1        jrothbe3     npatel64	       sraut1
+acmweb	     dharper1	       jryder	    npatil5	       srazak
+acohen13     dhintz1	       jsanch49     npelleg1	       srevade1
+acohen89     dhuang43	       jschmit2     npeters1	       sriram
+acullo1      dickman	       jseiber1     npoda1	       srupnar1
+acurrer1     dima	       jshaikh1     nreisch1	       ss1
+adesu1	     dirwin1	       jsharke	    nrogosz1	       ssahabh1
+adhruv1      djacobs7	       jsiegel6     nruizto1	       ssahani1
+adilliw1     djagtap1	       jsimon7	    nsamant1	       ssalick1
+admread      djhender	       jsimone1     nsane3885	       ssamate1
+adnan	     djwillia	       jskovro1     nsharm11	       ssanaga1
+adogana1     dkim17	       jstanle2     nstecyn1	       ssankhe1
+advweb	     dkunkel	       jstein27     ntinen	       ssarems1
+aeghbal1     dlam15	       jsteinberg   nuruchi1	       ssawwan1
+aeker1	     dli114	       jstpier1     nvallej1	       ssaxena3
+aevans1      dlockye1	       jstrohm1     nvander1	       ssayyad1
+afarrel3     dlundgren	       jstruck1     nwallin1	       ssenkes1
+afelsen3     dmacejk1	       jsu6	    nxu4	       ssenthil
+afergus6     dmaisur1	       jsuhr2	    oakgrove	       sshah90
+aferrei3     dmeisel1	       jsutton3     oalamut1	       ssharm53
+agarcia3     dmosess1	       jswift3	    ocinar1	       sshin
+agarcia4     dmu1	       jszacha1     ocummin1	       ssing117
+agarrit1     dnair3	       jterner1     ohatwal1	       ssingh99
+ageorg39     dnarasi1	       jthakka1     oiffert1	       ssivaku1
+agermos1     doneal1	       jthoma64     okilic1	       ssultan6
+agill10      dpan8	       jtricoz1     okircan1	       sswetha
+agim1	     dpaskal1	       jvail1	    okulkar4	       stammis1
+agjonba1     dpatel39	       jwang36	    omavitu1	       stapadi1
+agoetz3      dpatil2	       jweacho1     onur	       stapkee1
+agoncal2     dpaul12	       jweng8	    oolojed1	       star
+agrace2      dpetzol2	       jwetzel1     optiweb	       steflik
+agreenb3     dpham4	       jwhitak4     osanile1	       sthorat2
+agross22     dreyes12	       jwhite48     osayili1	       sthorat3
+aguarin3     drichards1        jwill128     osnetsvn	       stoke1
+agujara1     drseuss	       jwolter1     osweb	       studio
+agummal1     dryan6	       jwong123     oudawan1	       studio.nobackup
+aheffer1     dschroe1	       jwoyevo1     pacts	       sunyibo
+ahoriha1     dschust2	       jwu166	    pdeshpa2	       svibhut1
+ajain13      dskoda1	       jwu6	    pdeshpa3	       svishwa2
+ajain35      dtelson1	       jyadav1	    pdexter1	       swaghma1
+ajasper      dthakur1	       jyao	    pfeng1	       swang130
+ajimen29     dthatch1	       jyao6	    phao3	       swang206
+ajinete1     dtierne2	       jyoo45	    phdweb	       swang214
+ajohan78     dtimmer1	       jzee2019     phil	       sweimer1
+ajoshi1      dtownle1	       jzhang	    phmsvn	       syarram1
+akadu1	     dwalcot1	       kagyapo1     pixelcode	       syeung10
+akafore1     dwalter2	       kandrad2     pkandhi1	       sysadmin
+akaleli1     dwang84	       kang	    pkapoor2	       syudhoa1
+akancha1     dyang32	       kartik	    pkariya1	       szaman5
+akapur4      dzhang46	       kbahulkar    pkarthi1	       szhai2
+akayhan1     eadler1	       kbaumst2     pkaushi1	       szhan188
+akenjal1     eaktas	       kchanda2     pkulkar3	       szhang
+akenned8     ealdreabi	       kchings1     plnu2	       szhu5
+akhot1	     eates1	       kchiu	    plonkar1	       tabdazi1
+akulka17     ebasan1	       kcitlak1     pmadden	       tagrawa1
+akunz3	     ebaule1	       kcox4	    pmaino1	       talon1
+alal2	     ebenz1	       kdamodh1     pmcgoug1	       tameesh
+alee884      ebonzek1	       kdayala1     pokurog1	       tbabako1
+alee889      ebreban1	       kdeshpa5     ppagar1	       tballin1
+alevenb1     ecetine2	       kdh	    pparekh1	       tbarten1
+aliang30     eciraco1	       kdoughe2     pparmar2	       tbartens
+aliu81	     ecodrin1	       kdublin1     ppatel3	       tbhagoo1
+alongo5      ecoolid1	       kfang2	    ppatel85	       tbrentar
+amadnic2     edede1	       kferna11     ppatel95	       tbrown57
+amahaja4     edurney1	       kgaffne1     ppatil7	       tchan29
+amathe13     eelliot4	       kgajwan1     ppawar3	       tcheng8
+amccart9     eetheri1	       kgell1	    ppriyam1	       tchu4
+amchugh2     eezor1	       kghose	    pqi1	       tdevadit
+amcmanu4     efergus3	       kgiampo1     prasanna	       test
+ameya	     egeorge8	       kgoel1	    preddir1	       tfan4
+amillik1     ehaddad1	       kgulve1	    preddyl1	       tfasano1
+amishr11     ehuang35	       khaled	    project	       tgabrie2
+anaik4	     einal1	       khanson3     projects	       tgilber5
+anand	     eisikte1	       kharras	    projects.nobackup  tgisi1
+anayak2      ejang1	       khenneb1     psaha4	       tgonzag1
+aneeman      elakic1	       khill9	    psaha5	       tgrusze1
+aneesh	     elancer1	       khirana1     psahu1	       tgundel1
+anikam1      elanger4	       khsieh3	    psammon1	       tgurung2
+ankit	     elurye1	       kjayapr1     psehraw1	       thalai1
+aorella1     emarang1	       kjones47     psemegr1	       thoa1
+apadman1     emattison	       kkasara1     pshang1	       thoelze1
+apatel	     emcnier2	       kkoka1	    pshrest1	       thorowi1
+apateri1     emergepl	       kkulkar3     psilves1	       thung1
+aperlow1     emoelle2	       kkumawa1     psin	       thur1
+aplotko1     engage	       kkurtz	    psingh43	       ticket
+aputnal1     epalani1	       klewis24     psinha1	       tkapadi1
+aquach1      epona	       kliu20	    ptanpur1	       tkatz1
+arahma	     erdil	       kmahmou1     ptezcan1	       tkump1
+aravind      eserdar1	       kmanriq1     pthakka4	       tli16
+arayala1     eshapir9	       kmore4	    ptilley1	       tliu76
+arizzo10     estern7	       kmoshie1     puppula1	       tloja1
+arohill1     et		       kna3	    pvalenta	       tlucher1
+artir	     eterrac1	       knadeem1     pwakodi1	       tman1
+asahai1      etilden	       knip1	    pwalke1	       tmarder1
+asawant2     evorosh1	       koneill7     pwang22	       tmatusz1
+asawwal1     eway1	       kong	    pweb	       tpmsim
+aschwa30     eyalcin1	       kpathak1     pwilber1	       tquiles1
+aselvan1     eyavasc1	       kphill11     pyang	       trecupe1
+aservet1     ezagnus1	       kpierce5     pzhao3	       tredban1
+asharif1     faculty	       kragava1     qjia4	       tsharma6
+asharm14     faculty.nobackup  kramana1     qliang8	       tshores1
+asharm47     facweb	       kruan1	    qxiong1	       tsrivas1
+ashimiz1     fafram1	       ksaini1	    qzhang61	       tstache1
+ashimiz2     falmato1	       ksawant1     raj		       tsteige1
+ashinde3     fantona1	       ksingh35     rambast1	       tton1
+ashiral1     fbrione1	       ksingh42     ramsurat1	       tunsel1
+asing134     fchai1	       kstigle1     rbadada1	       twang61
+astensl1     femmanu1	       ksun1	    rberlan1	       twellin1
+astjohn      find	       kthote1	    rbey1	       twilli81
+astrong3     fitz	       ktiao1	    rbhowmik	       twojtuk1
+athaile1     fmri	       kusovski     rblazej1	       twrigh13
+athakur2     foreman	       kvartak2     rchen102	       txu
+atiwari3     forweb	       kwadeka1     rcheung5	       tzhao7
+atom2	     fscott1	       kwallac6     rchowda1	       ubalci1
+atweedy1     ftahmas1	       kwan2	    rcomerf1	       udeshpa1
+auy2	     gadu	       kwill113     rdelval1	       uergash1
+avanroi1     gaic	       kwrite1	    rdhuri1	       ukayaal1
+avenetos1    gaming	       kyan12	    reckert	       umrigar
+avinan	     garrison	       kyi3	    regress	       upe
+aviswan3     gbejara1	       lander	    remadm	       upuvvad1
+avora4	     gbenyis1	       larson	    rerinfo1	       urahman1
+awalley1     gbiyani1	       lcanale2     reswara1	       usatlas1
+awaring1     gchen21	       lcoats1	    reu		       usatlas2
+awest3	     gcrl	       ldo	    reu09	       uscms01
+awilso16     geert	       legion	    reustac1	       uscms02
+aworm1	     ggonzal9	       legion2	    rfujita1	       vbadagu1
+ayenugu1     ghlp	       lenny	    rgeary1	       vbakshi1
+ayeung9      ghose	       levliya1     rgirong1	       vbandew1
+azaccag1     ghyan	       lgustaf1     rgollap1	       vbeauge1
+balandi1     gkumar1	       lhsueh1	    rgonzal	       vbhosal1
+baltar	     gliu10	       lijun	    rgunczl1	       vchaska1
+barry	     globus	       liymn	    rhainin1	       vdevara2
+bbeeral1     gmore3	       lkendal1     richardsond        vinkolar
+bbrea1	     gmyers	       lkollur1     rimai1	       vkatrag2
+bbuchan1     grad	       llasurd1     rimbro1	       vkumari1
+bchadha1     grad.nobackup     llu17	    rjoseph3	       vlsiweb
+bchen111     grase	       lmanwan1     rkaur21	       vmalcev1
+bchen114     grattih1	       lok	    rkelley2	       vmunish1
+bchoudh4     gredozu1	       lornawel     rklein14	       vparekh1
+bchrobot     grid	       lrosenb1     rkugver1	       vragovs1
+bcohada1     gridex	       lsc01	    rkulka22	       vsingh2
+bdeore1      gridweb	       lsearsangel  rlangen1	       vtran6
+bdevrie1     gsivana1	       lsunny1	    rlevass1	       vyadav1
+bdikmen1     gsoweb	       ltaveir1     rlotlik1	       watadv
+bdobriy1     gsteinb1	       lwisdom1     rmarvin1	       wbennet1
+beaumont     gstodda1	       lxu31	    rmccaul1	       wcornej1
+bestus1      gtan	       lyadagi1     rmccorm4	       wdai
+bgrant11     gtaskin1	       lyalcin1     rmei6	       wduan1
+bharari1     guydosh	       lyu	    rmeliti1	       weinscgg
+bhogan9      gvalenc2	       maber1	    rmittal1	       welu
+bizar1	     gwang23	       maguila2     rmusale1	       whuebne1
+bkalayc1     gwilber1	       mallingt     rnatara2	       wkeller3
+bkeuria1     gwint1	       maple	    robotics	       wkenned1
+bklayma1     gyerrad1	       marsene1     rorourk2	       wleng1
+blackburn    hahuja1	       marss86	    rosew	       wliu5
+blee75	     halzein1	       marysomma1   rpena9	       wliu68
+blewis9      haygan1	       matlab	    rpokhar1	       wmeng
+bliebe1      hbagdi1	       maziz3	    rquinli1	       wni
+bliew1	     hbalu1	       mbagonis5    rrausha1	       wyang
+blong	     hbrown10	       mbayhoc1     rriess1	       wzhangc1
+blu20	     hburkha1	       mbellus1     rriley	       wzhao1
+bmarti38     hburns3	       mbradsh3     rsaptar2	       xchen269
+bni2	     hchen113	       mcaldro1     rsaraf1	       xdeng7
+bpoliks      hdesai1	       mcetin3	    rsaxena3	       xgao1
+bpreise1     head	       mchen12	    rsayers1	       xgarcia2
+brathke1     hfu11	       mcohen76     rshahul1	       xguo38
+brichar7     hgarg1	       mcole8	    rshand1	       xianli
+brobergj     hjia3	       mdamiat1     rsharpe1	       xli180
+brood	     hkang	       mdang1	    rshendl1	       xli210
+brose7	     hkilic2	       mdelgad1     rsmith23	       xliang24
+brothbe3     hkulkar1	       mdevend1     rsomapu1	       xluo22
+bsadhna1     hlauder1	       mdobies1     rsumit	       xpeng
+bsaliba1     hlum1	       meng	    rtes-mc	       xshi1
+bsendir1     hmahaja1	       merwyn	    rthaiva1	       xu_haohang
+bstace1      hmanda1	       mfarrel8     rthete1	       xwang247
+bsweet2      hmense1	       mfata3	    rwang4	       xwei
+btas1	     hmulla1	       mforcella    rwright3	       xwu30
+btaylor1     hnikam1	       mfoster7     ryder	       xwu9
+bugzilla     hoeppner	       mgadi1	    rzaveri1	       xyu44
+bvuduth1     hpacher1	       mghayoumi    rzhang	       xzhan215
+bwang2	     hparmar1	       mghosal1     rzheng14	       xzhan244
+bweiss1      hpham3	       mgogats1     sacosta8	       xzhang7
+bwong28      hqin4	       mgomez4	    sagrawa4	       xzhang99
+byan2	     hrasal1	       mgovinda     sahire1	       yanwang
+byang20      hribic1	       mgreen	    salqaht1	       yaoliu
+bzee1	     hrode1	       mgupta3	    sameer	       ybai4
+bzhang73     hroeder1	       mhems1	    samgrid	       ychandi1
+cadathlon    hsloan1	       mhubli1	    samiri1	       ychen161
+canlin	     hstein6	       mike	    samoore	       ychen415
+capsweb      huilu	       millerti     santobu	       ydaggup1
+cauchym      hvadoda1	       mis	    sarnold4	       yding25
+cayachi1     hwang161	       mjain8	    saswani1	       yguo71
+cazukwu1     hwu71	       mjiang39     satoshi	       yhan1
+cbanvar1     hxiao4	       mjones46     saurabh	       yhu15
+cbartol1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbehan1      hyi2	       mkayaalp     sbadri1	       yhuan171
+cbond2	     hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbrugna1     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cchen17      hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen8	     hzou1	       mlatypo1     sbdc	       yjagdal1
+cchiauz1     ids-web	       mlewis	    sbengal2	       yjiang5
+cchilds1     igomez1	       mlin71	    sbettad1	       yjun1
+cchoi20      igoreli1	       mliu56	    sblack3	       ykucuk1
+ccipp1	     ikilinc1	       mlrg	    sboggar1	       yli241
+ccloss1      iliano	       mmadhan1     sbohn1	       yli418
+ccui5	     indangered        mmallow1     sbommal1	       ylin
+ccui7	     intrieri	       mmangal1     sbourke1	       ylin145
+cdaware1     iperdom1	       mmillar3     sbravo1	       ylin153
+cdf	     isarfat1	       mmille60     scanavan	       yliu158
+cdimegl1     israat	       mmuffol1     scao16	       yliu377
+cdonovi1     ivdgl	       mnorton1     schaska1	       yliu401
+cdowdle1     iwobi	       mnussba2     schaud16	       ylu0
+cfiutak1     jabbott3	       mobicom2016  schen232	       ypan13
+cglashe1     jalbert5	       molavar1     schinch1	       ypan3
+cgopina1     jalexa10	       monalisa     scogay1	       ypatel9
+cguo9	     jamjoom	       mozkaya1     scraver	       ysaglam1
+cgupta	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cguvenc1     jarora2	       mparker4     sdesai12	       ysun106
+chanusa      jawayan1	       mparlaw1     sdesai13	       ysun59
+chao	     jbabbit1	       mpatel43     sdesai14	       ytang4
+chart7	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+cherna19     jbarret3	       mperaza1     sdhanas1	       ytao15
+chouck	     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chuang31     jberg3	       mplohet1     sdias1	       yxu
+ciweb	     jburns11	       mpressi1     sdinc1	       yxu133
+cjenkin1     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjian1	     jcen3	       mreale	    sdoski1	       yyang202
+cjiang21     jchen249	       mreid9	    sdss	       yzhan202
+cjoaqui1     jchen441	       mriver25     secarch	       yzhan401
+cjones43     jcipoll1	       mrldata	    secweb	       yzhang25
+ckshirs1     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckulkar2     jcope1	       mroshid1     sgallag3	       zaugust1
+clandgr1     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+cli22	     jdaley2	       mruffne1     sgcpu	       zdu
+clin18	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clindsa1     jderder1	       mschult7     sgowdra1	       zfield2
+cliu118      jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+clow1	     jditkof1	       msha	    sgrimm2	       zge3
+cmachaf1     jdua1	       mshah38	    sgupta38	       zguo
+cmcborr1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmmiller     jeimer1	       msheldo2     shan	       zhangying
+cmontgo1     jeipp1	       mshelto3     shane	       zhongfei
+cmoore2      jelwell	       msim	    shanson1	       zhuang28
+cmunro1      jelwell1	       mslocum1     shanuma1	       zhuang80
+colinb	     jeymer1	       mspano2	    shegde1	       ziegler
+cpandit1     jfeinla1	       msweb	    shuhong	       zkabari1
+cpingal1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cquelle3     jgallia1	       mtan23	    sigda	       zli137
+cs350	     jgoldb42	       mthakka2     simple	       zli160
+cs441-test   jgumien1	       mthanga1     simplepath	       zli191
+cs540sw      jgwak1	       mtullo1	    sjain13	       zli192
+csabet01_oc  jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet02_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet03_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+cschnei3     jhastie1	       mvani1	    skaldat1	       zqiu4
+csherla1     jherath1	       mwarfor1     skalidi1	       zseymou1
+csiegle1     jhertik1	       mweb	    skbu007	       zshu1
+csimak1      jhicks	       mwerner7     skolhap1	       zwang252
+cs-ipc	     jhuyghu1	       myan28	    skonath1	       zwen7
+csperry1     jjacob44	       myuksek1     skorade1	       zzhan145
+csweb	     jjeanba2	       mzheng47     skothap1	       zzhan150
+ctran20      jjjcart	       mz-matlab    skremli1	       zzhan218
+ctrembl1     jjose1	       nabate1	    skumar	       zzhang27
+cutler	     jkassne1	       nael	    skunz1
+eshapir9@g7-36:/home$ cd umrigar
+eshapir9@g7-36:/home/umrigar$ ls
+bin    Desktop	  git-repos  mail     Music	projects     Templates
+core   doc	  info	     Maildir  nsmail	Public	     tmp
+cs240  Documents  lib	     mailrc   Pictures	public_html  Videos
+cs544  Downloads  local      misc     private	share	     workspace
+eshapir9@g7-36:/home/umrigar$ gedo[Kit . ~umrigar/cs240/bin/student.profile
+cd cseshapir9@g7-36:/home/umrigar$ cd cs240
+bash: cd: cs240: Permission denied
+eshapir9@g7-36:/home/umrigar$ cd cs240
+bash: cd: cs240: Permission denied
+eshapir9@g7-36:/home/umrigar$ ls
+bin    Desktop	  git-repos  mail     Music	projects     Templates
+core   doc	  info	     Maildir  nsmail	Public	     tmp
+cs240  Documents  lib	     mailrc   Pictures	public_html  Videos
+cs544  Downloads  local      misc     private	share	     workspace
+eshapir9@g7-36:/home/umrigar$ ls
+bin    Desktop	  git-repos  mail     Music	projects     Templates
+core   doc	  info	     Maildir  nsmail	Public	     tmp
+cs240  Documents  lib	     mailrc   Pictures	public_html  Videos
+cs544  Downloads  local      misc     private	share	     workspace
+eshapir9@g7-36:/home/umrigar$ c[K..[K[Kcd ..
+eshapir9@g7-36:/home$ cd ..
+eshapir9@g7-36:/$ ls
+backup	    initrd.img		    mnt			 srv
+bin	    initrd.img.old	    nslcd.conf.linux	 sys
+boot	    lib			    opt			 tmp
+dev	    lib32		    opt.local		 usr
+etc	    lib64		    opt.old		 var
+home	    libnss-ldap.conf.linux  pam_ldap.conf.linux  vmlinuz
+home1	    libx32		    proc		 vmlinuz.old
+home.local  lost+found		    root
+home.save   media		    run
+import	    microchip		    sbin
+eshapir9@g7-36:/$ cd home
+eshapir9@g7-36:/home$ ls
+aabrey1      cviezel1	       jlei23	    nananth1	       slellis1
+aagraw11     cwetzel2	       jlevin38     nanohub	       slin100
+aaharon1     cwickiz1	       jli452	    nate	       slin111
+aakin1	     cwong11	       jli461	    nayan1	       sliu
+aalamer1     cyang58	       jliebe12     naydin2	       sliu22
+aambilw1     cybersec	       jlin129	    nayef	       slnu1
+aamer	     czhang27	       jlin269	    nbellam1	       sloscal1
+aandhar2     czhou5	       jliu212	    nbethan1	       smahmud2
+aanveka2     dallen9	       jloew	    nboeker1	       smanne1
+aashraf1     danzelo1	       jlouie2	    nboyd3	       smartpark
+abalkum      davehall	       jlu56	    nburzyn1	       smasara1
+abelmna1     davehallldap      jmcmah10     ncilsal2	       smason8
+abeltre1     davidl	       jmeguir1     ncorvi1	       smestry1
+abet	     dbalkan	       jmessin2     ndagost1	       smircha1
+abetrev      dbottch1	       jmitche6     ndedios1	       smoore4
+abettest     dchhabd1	       jmohrma1     ndefeli2	       smorram1
+abhagwa1     dcordei1	       jmontgo4     ndeshmu1	       smorri11
+abharan1     ddas1	       jmontgo5     NFS11	       smukka1
+abhat3	     ddefazi1	       jocampo1     ngarg3	       snagarak1
+abixby1      ddemicc1	       josgood2     ngawade1	       snatu1
+abloodg1     ddesai9	       joyedap1     ngoyal1	       snimhan1
+abommin1     ddhuri1	       jpan33	    ngreene5	       software
+abozkur1     ddoddag1	       jparikh1     ngrosso1	       soshay1
+aburke5      devtyushkin       jpark349     ngujar1	       sozdemi2
+acanino1     dfan2	       jphilem1     ngupta4	       sozden1
+acarter6     dfeinma1	       jquezad1     nhofman1	       spalshe1
+aceylan1     dferna15	       jramli1	    nilton	       spark215
+achaud12     dfitzge3	       jrandha1     nkimura	       sparra2
+achaud15     dfletch1	       jraskin3     nkokne1	       sparuch1
+achaudh9     dgarden1	       jren18	    nkommur1	       spatwa1
+achavan4     dgaviol1	       jrising1     nli19	       spradha1
+achen172     dgeorge7	       jrodr151     nmarman1	       sraghav2
+acheseb1     dglazer1	       jrosen46     nmishra1	       srally1
+achhabr1     dgleaso2	       jrosen52     nmonast1	       srao12
+achotal1     dgouvou1	       jrosswog     npatel62	       srapell2
+aclancy1     dgriffith1        jrothbe3     npatel64	       sraut1
+acmweb	     dharper1	       jryder	    npatil5	       srazak
+acohen13     dhintz1	       jsanch49     npelleg1	       srevade1
+acohen89     dhuang43	       jschmit2     npeters1	       sriram
+acullo1      dickman	       jseiber1     npoda1	       srupnar1
+acurrer1     dima	       jshaikh1     nreisch1	       ss1
+adesu1	     dirwin1	       jsharke	    nrogosz1	       ssahabh1
+adhruv1      djacobs7	       jsiegel6     nruizto1	       ssahani1
+adilliw1     djagtap1	       jsimon7	    nsamant1	       ssalick1
+admread      djhender	       jsimone1     nsane3885	       ssamate1
+adnan	     djwillia	       jskovro1     nsharm11	       ssanaga1
+adogana1     dkim17	       jstanle2     nstecyn1	       ssankhe1
+advweb	     dkunkel	       jstein27     ntinen	       ssarems1
+aeghbal1     dlam15	       jsteinberg   nuruchi1	       ssawwan1
+aeker1	     dli114	       jstpier1     nvallej1	       ssaxena3
+aevans1      dlockye1	       jstrohm1     nvander1	       ssayyad1
+afarrel3     dlundgren	       jstruck1     nwallin1	       ssenkes1
+afelsen3     dmacejk1	       jsu6	    nxu4	       ssenthil
+afergus6     dmaisur1	       jsuhr2	    oakgrove	       sshah90
+aferrei3     dmeisel1	       jsutton3     oalamut1	       ssharm53
+agarcia3     dmosess1	       jswift3	    ocinar1	       sshin
+agarcia4     dmu1	       jszacha1     ocummin1	       ssing117
+agarrit1     dnair3	       jterner1     ohatwal1	       ssingh99
+ageorg39     dnarasi1	       jthakka1     oiffert1	       ssivaku1
+agermos1     doneal1	       jthoma64     okilic1	       ssultan6
+agill10      dpan8	       jtricoz1     okircan1	       sswetha
+agim1	     dpaskal1	       jvail1	    okulkar4	       stammis1
+agjonba1     dpatel39	       jwang36	    omavitu1	       stapadi1
+agoetz3      dpatil2	       jweacho1     onur	       stapkee1
+agoncal2     dpaul12	       jweng8	    oolojed1	       star
+agrace2      dpetzol2	       jwetzel1     optiweb	       steflik
+agreenb3     dpham4	       jwhitak4     osanile1	       sthorat2
+agross22     dreyes12	       jwhite48     osayili1	       sthorat3
+aguarin3     drichards1        jwill128     osnetsvn	       stoke1
+agujara1     drseuss	       jwolter1     osweb	       studio
+agummal1     dryan6	       jwong123     oudawan1	       studio.nobackup
+aheffer1     dschroe1	       jwoyevo1     pacts	       sunyibo
+ahoriha1     dschust2	       jwu166	    pdeshpa2	       svibhut1
+ajain13      dskoda1	       jwu6	    pdeshpa3	       svishwa2
+ajain35      dtelson1	       jyadav1	    pdexter1	       swaghma1
+ajasper      dthakur1	       jyao	    pfeng1	       swang130
+ajimen29     dthatch1	       jyao6	    phao3	       swang206
+ajinete1     dtierne2	       jyoo45	    phdweb	       swang214
+ajohan78     dtimmer1	       jzee2019     phil	       sweimer1
+ajoshi1      dtownle1	       jzhang	    phmsvn	       syarram1
+akadu1	     dwalcot1	       kagyapo1     pixelcode	       syeung10
+akafore1     dwalter2	       kandrad2     pkandhi1	       sysadmin
+akaleli1     dwang84	       kang	    pkapoor2	       syudhoa1
+akancha1     dyang32	       kartik	    pkariya1	       szaman5
+akapur4      dzhang46	       kbahulkar    pkarthi1	       szhai2
+akayhan1     eadler1	       kbaumst2     pkaushi1	       szhan188
+akenjal1     eaktas	       kchanda2     pkulkar3	       szhang
+akenned8     ealdreabi	       kchings1     plnu2	       szhu5
+akhot1	     eates1	       kchiu	    plonkar1	       tabdazi1
+akulka17     ebasan1	       kcitlak1     pmadden	       tagrawa1
+akunz3	     ebaule1	       kcox4	    pmaino1	       talon1
+alal2	     ebenz1	       kdamodh1     pmcgoug1	       tameesh
+alee884      ebonzek1	       kdayala1     pokurog1	       tbabako1
+alee889      ebreban1	       kdeshpa5     ppagar1	       tballin1
+alevenb1     ecetine2	       kdh	    pparekh1	       tbarten1
+aliang30     eciraco1	       kdoughe2     pparmar2	       tbartens
+aliu81	     ecodrin1	       kdublin1     ppatel3	       tbhagoo1
+alongo5      ecoolid1	       kfang2	    ppatel85	       tbrentar
+amadnic2     edede1	       kferna11     ppatel95	       tbrown57
+amahaja4     edurney1	       kgaffne1     ppatil7	       tchan29
+amathe13     eelliot4	       kgajwan1     ppawar3	       tcheng8
+amccart9     eetheri1	       kgell1	    ppriyam1	       tchu4
+amchugh2     eezor1	       kghose	    pqi1	       tdevadit
+amcmanu4     efergus3	       kgiampo1     prasanna	       test
+ameya	     egeorge8	       kgoel1	    preddir1	       tfan4
+amillik1     ehaddad1	       kgulve1	    preddyl1	       tfasano1
+amishr11     ehuang35	       khaled	    project	       tgabrie2
+anaik4	     einal1	       khanson3     projects	       tgilber5
+anand	     eisikte1	       kharras	    projects.nobackup  tgisi1
+anayak2      ejang1	       khenneb1     psaha4	       tgonzag1
+aneeman      elakic1	       khill9	    psaha5	       tgrusze1
+aneesh	     elancer1	       khirana1     psahu1	       tgundel1
+anikam1      elanger4	       khsieh3	    psammon1	       tgurung2
+ankit	     elurye1	       kjayapr1     psehraw1	       thalai1
+aorella1     emarang1	       kjones47     psemegr1	       thoa1
+apadman1     emattison	       kkasara1     pshang1	       thoelze1
+apatel	     emcnier2	       kkoka1	    pshrest1	       thorowi1
+apateri1     emergepl	       kkulkar3     psilves1	       thung1
+aperlow1     emoelle2	       kkumawa1     psin	       thur1
+aplotko1     engage	       kkurtz	    psingh43	       ticket
+aputnal1     epalani1	       klewis24     psinha1	       tkapadi1
+aquach1      epona	       kliu20	    ptanpur1	       tkatz1
+arahma	     erdil	       kmahmou1     ptezcan1	       tkump1
+aravind      eserdar1	       kmanriq1     pthakka4	       tli16
+arayala1     eshapir9	       kmore4	    ptilley1	       tliu76
+arizzo10     estern7	       kmoshie1     puppula1	       tloja1
+arohill1     et		       kna3	    pvalenta	       tlucher1
+artir	     eterrac1	       knadeem1     pwakodi1	       tman1
+asahai1      etilden	       knip1	    pwalke1	       tmarder1
+asawant2     evorosh1	       koneill7     pwang22	       tmatusz1
+asawwal1     eway1	       kong	    pweb	       tpmsim
+aschwa30     eyalcin1	       kpathak1     pwilber1	       tquiles1
+aselvan1     eyavasc1	       kphill11     pyang	       trecupe1
+aservet1     ezagnus1	       kpierce5     pzhao3	       tredban1
+asharif1     faculty	       kragava1     qjia4	       tsharma6
+asharm14     faculty.nobackup  kramana1     qliang8	       tshores1
+asharm47     facweb	       kruan1	    qxiong1	       tsrivas1
+ashimiz1     fafram1	       ksaini1	    qzhang61	       tstache1
+ashimiz2     falmato1	       ksawant1     raj		       tsteige1
+ashinde3     fantona1	       ksingh35     rambast1	       tton1
+ashiral1     fbrione1	       ksingh42     ramsurat1	       tunsel1
+asing134     fchai1	       kstigle1     rbadada1	       twang61
+astensl1     femmanu1	       ksun1	    rberlan1	       twellin1
+astjohn      find	       kthote1	    rbey1	       twilli81
+astrong3     fitz	       ktiao1	    rbhowmik	       twojtuk1
+athaile1     fmri	       kusovski     rblazej1	       twrigh13
+athakur2     foreman	       kvartak2     rchen102	       txu
+atiwari3     forweb	       kwadeka1     rcheung5	       tzhao7
+atom2	     fscott1	       kwallac6     rchowda1	       ubalci1
+atweedy1     ftahmas1	       kwan2	    rcomerf1	       udeshpa1
+auy2	     gadu	       kwill113     rdelval1	       uergash1
+avanroi1     gaic	       kwrite1	    rdhuri1	       ukayaal1
+avenetos1    gaming	       kyan12	    reckert	       umrigar
+avinan	     garrison	       kyi3	    regress	       upe
+aviswan3     gbejara1	       lander	    remadm	       upuvvad1
+avora4	     gbenyis1	       larson	    rerinfo1	       urahman1
+awalley1     gbiyani1	       lcanale2     reswara1	       usatlas1
+awaring1     gchen21	       lcoats1	    reu		       usatlas2
+awest3	     gcrl	       ldo	    reu09	       uscms01
+awilso16     geert	       legion	    reustac1	       uscms02
+aworm1	     ggonzal9	       legion2	    rfujita1	       vbadagu1
+ayenugu1     ghlp	       lenny	    rgeary1	       vbakshi1
+ayeung9      ghose	       levliya1     rgirong1	       vbandew1
+azaccag1     ghyan	       lgustaf1     rgollap1	       vbeauge1
+balandi1     gkumar1	       lhsueh1	    rgonzal	       vbhosal1
+baltar	     gliu10	       lijun	    rgunczl1	       vchaska1
+barry	     globus	       liymn	    rhainin1	       vdevara2
+bbeeral1     gmore3	       lkendal1     richardsond        vinkolar
+bbrea1	     gmyers	       lkollur1     rimai1	       vkatrag2
+bbuchan1     grad	       llasurd1     rimbro1	       vkumari1
+bchadha1     grad.nobackup     llu17	    rjoseph3	       vlsiweb
+bchen111     grase	       lmanwan1     rkaur21	       vmalcev1
+bchen114     grattih1	       lok	    rkelley2	       vmunish1
+bchoudh4     gredozu1	       lornawel     rklein14	       vparekh1
+bchrobot     grid	       lrosenb1     rkugver1	       vragovs1
+bcohada1     gridex	       lsc01	    rkulka22	       vsingh2
+bdeore1      gridweb	       lsearsangel  rlangen1	       vtran6
+bdevrie1     gsivana1	       lsunny1	    rlevass1	       vyadav1
+bdikmen1     gsoweb	       ltaveir1     rlotlik1	       watadv
+bdobriy1     gsteinb1	       lwisdom1     rmarvin1	       wbennet1
+beaumont     gstodda1	       lxu31	    rmccaul1	       wcornej1
+bestus1      gtan	       lyadagi1     rmccorm4	       wdai
+bgrant11     gtaskin1	       lyalcin1     rmei6	       wduan1
+bharari1     guydosh	       lyu	    rmeliti1	       weinscgg
+bhogan9      gvalenc2	       maber1	    rmittal1	       welu
+bizar1	     gwang23	       maguila2     rmusale1	       whuebne1
+bkalayc1     gwilber1	       mallingt     rnatara2	       wkeller3
+bkeuria1     gwint1	       maple	    robotics	       wkenned1
+bklayma1     gyerrad1	       marsene1     rorourk2	       wleng1
+blackburn    hahuja1	       marss86	    rosew	       wliu5
+blee75	     halzein1	       marysomma1   rpena9	       wliu68
+blewis9      haygan1	       matlab	    rpokhar1	       wmeng
+bliebe1      hbagdi1	       maziz3	    rquinli1	       wni
+bliew1	     hbalu1	       mbagonis5    rrausha1	       wyang
+blong	     hbrown10	       mbayhoc1     rriess1	       wzhangc1
+blu20	     hburkha1	       mbellus1     rriley	       wzhao1
+bmarti38     hburns3	       mbradsh3     rsaptar2	       xchen269
+bni2	     hchen113	       mcaldro1     rsaraf1	       xdeng7
+bpoliks      hdesai1	       mcetin3	    rsaxena3	       xgao1
+bpreise1     head	       mchen12	    rsayers1	       xgarcia2
+brathke1     hfu11	       mcohen76     rshahul1	       xguo38
+brichar7     hgarg1	       mcole8	    rshand1	       xianli
+brobergj     hjia3	       mdamiat1     rsharpe1	       xli180
+brood	     hkang	       mdang1	    rshendl1	       xli210
+brose7	     hkilic2	       mdelgad1     rsmith23	       xliang24
+brothbe3     hkulkar1	       mdevend1     rsomapu1	       xluo22
+bsadhna1     hlauder1	       mdobies1     rsumit	       xpeng
+bsaliba1     hlum1	       meng	    rtes-mc	       xshi1
+bsendir1     hmahaja1	       merwyn	    rthaiva1	       xu_haohang
+bstace1      hmanda1	       mfarrel8     rthete1	       xwang247
+bsweet2      hmense1	       mfata3	    rwang4	       xwei
+btas1	     hmulla1	       mforcella    rwright3	       xwu30
+btaylor1     hnikam1	       mfoster7     ryder	       xwu9
+bugzilla     hoeppner	       mgadi1	    rzaveri1	       xyu44
+bvuduth1     hpacher1	       mghayoumi    rzhang	       xzhan215
+bwang2	     hparmar1	       mghosal1     rzheng14	       xzhan244
+bweiss1      hpham3	       mgogats1     sacosta8	       xzhang7
+bwong28      hqin4	       mgomez4	    sagrawa4	       xzhang99
+byan2	     hrasal1	       mgovinda     sahire1	       yanwang
+byang20      hribic1	       mgreen	    salqaht1	       yaoliu
+bzee1	     hrode1	       mgupta3	    sameer	       ybai4
+bzhang73     hroeder1	       mhems1	    samgrid	       ychandi1
+cadathlon    hsloan1	       mhubli1	    samiri1	       ychen161
+canlin	     hstein6	       mike	    samoore	       ychen415
+capsweb      huilu	       millerti     santobu	       ydaggup1
+cauchym      hvadoda1	       mis	    sarnold4	       yding25
+cayachi1     hwang161	       mjain8	    saswani1	       yguo71
+cazukwu1     hwu71	       mjiang39     satoshi	       yhan1
+cbanvar1     hxiao4	       mjones46     saurabh	       yhu15
+cbartol1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbehan1      hyi2	       mkayaalp     sbadri1	       yhuan171
+cbond2	     hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbrugna1     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cchen17      hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen8	     hzou1	       mlatypo1     sbdc	       yjagdal1
+cchiauz1     ids-web	       mlewis	    sbengal2	       yjiang5
+cchilds1     igomez1	       mlin71	    sbettad1	       yjun1
+cchoi20      igoreli1	       mliu56	    sblack3	       ykucuk1
+ccipp1	     ikilinc1	       mlrg	    sboggar1	       yli241
+ccloss1      iliano	       mmadhan1     sbohn1	       yli418
+ccui5	     indangered        mmallow1     sbommal1	       ylin
+ccui7	     intrieri	       mmangal1     sbourke1	       ylin145
+cdaware1     iperdom1	       mmillar3     sbravo1	       ylin153
+cdf	     isarfat1	       mmille60     scanavan	       yliu158
+cdimegl1     israat	       mmuffol1     scao16	       yliu377
+cdonovi1     ivdgl	       mnorton1     schaska1	       yliu401
+cdowdle1     iwobi	       mnussba2     schaud16	       ylu0
+cfiutak1     jabbott3	       mobicom2016  schen232	       ypan13
+cglashe1     jalbert5	       molavar1     schinch1	       ypan3
+cgopina1     jalexa10	       monalisa     scogay1	       ypatel9
+cguo9	     jamjoom	       mozkaya1     scraver	       ysaglam1
+cgupta	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cguvenc1     jarora2	       mparker4     sdesai12	       ysun106
+chanusa      jawayan1	       mparlaw1     sdesai13	       ysun59
+chao	     jbabbit1	       mpatel43     sdesai14	       ytang4
+chart7	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+cherna19     jbarret3	       mperaza1     sdhanas1	       ytao15
+chouck	     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chuang31     jberg3	       mplohet1     sdias1	       yxu
+ciweb	     jburns11	       mpressi1     sdinc1	       yxu133
+cjenkin1     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjian1	     jcen3	       mreale	    sdoski1	       yyang202
+cjiang21     jchen249	       mreid9	    sdss	       yzhan202
+cjoaqui1     jchen441	       mriver25     secarch	       yzhan401
+cjones43     jcipoll1	       mrldata	    secweb	       yzhang25
+ckshirs1     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckulkar2     jcope1	       mroshid1     sgallag3	       zaugust1
+clandgr1     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+cli22	     jdaley2	       mruffne1     sgcpu	       zdu
+clin18	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clindsa1     jderder1	       mschult7     sgowdra1	       zfield2
+cliu118      jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+clow1	     jditkof1	       msha	    sgrimm2	       zge3
+cmachaf1     jdua1	       mshah38	    sgupta38	       zguo
+cmcborr1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmmiller     jeimer1	       msheldo2     shan	       zhangying
+cmontgo1     jeipp1	       mshelto3     shane	       zhongfei
+cmoore2      jelwell	       msim	    shanson1	       zhuang28
+cmunro1      jelwell1	       mslocum1     shanuma1	       zhuang80
+colinb	     jeymer1	       mspano2	    shegde1	       ziegler
+cpandit1     jfeinla1	       msweb	    shuhong	       zkabari1
+cpingal1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cquelle3     jgallia1	       mtan23	    sigda	       zli137
+cs350	     jgoldb42	       mthakka2     simple	       zli160
+cs441-test   jgumien1	       mthanga1     simplepath	       zli191
+cs540sw      jgwak1	       mtullo1	    sjain13	       zli192
+csabet01_oc  jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet02_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet03_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+cschnei3     jhastie1	       mvani1	    skaldat1	       zqiu4
+csherla1     jherath1	       mwarfor1     skalidi1	       zseymou1
+csiegle1     jhertik1	       mweb	    skbu007	       zshu1
+csimak1      jhicks	       mwerner7     skolhap1	       zwang252
+cs-ipc	     jhuyghu1	       myan28	    skonath1	       zwen7
+csperry1     jjacob44	       myuksek1     skorade1	       zzhan145
+csweb	     jjeanba2	       mzheng47     skothap1	       zzhan150
+ctran20      jjjcart	       mz-matlab    skremli1	       zzhan218
+ctrembl1     jjose1	       nabate1	    skumar	       zzhang27
+cutler	     jkassne1	       nael	    skunz1
+eshapir9@g7-36:/home$ cd eshapir9
+eshapir9@g7-36:~$ ls
+a.out	 cs120.c    Downloads  lab	    Music     pound.c	 tmp
+Arduino  Desktop    hello      multTable    Pictures  Public	 Videos
+cs120	 Documents  hello.c    multTable.c  pound     Templates
+eshapir9@g7-36:~$ cd tmp
+eshapir9@g7-36:~/tmp$ ls
+lab0
+eshapir9@g7-36:~/tmp$ cd lab0
+eshapir9@g7-36:~/tmp/lab0$ ks[K[Kls
+lab0.LOG
+eshapir9@g7-36:~/tmp/lab0$ cd ..
+eshapir9@g7-36:~/tmp$ cd ..
+eshapir9@g7-36:~$ mkdir -p ~/projects
+eshapir9@g7-36:~$ cd ~/projects
+eshapir9@g7-36:~/projects$ git clone ABOVE_UT[KRL
+fatal: repository 'ABOVE_URL' does not exist
+eshapir9@g7-36:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+Cloning into 'cs240'...
+The authenticity of host 'remote.cs.binghamton.edu (128.226.114.205)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'remote.cs.binghamton.edu,128.226.114.205' (ECDSA) to the list of known hosts.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+user@remote.cs.binghamton.edu: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+eshapir9@g7-36:~/projects$ ls
+eshapir9@g7-36:~/projects$ ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+bash: ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+eshapir9@g7-36:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+Cloning into 'cs240'...
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.207' to the list of known hosts.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+user@remote.cs.binghamton.edu: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+eshapir9@g7-36:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+Cloning into 'cs240'...
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.206' to the list of known hosts.
+user@remote.cs.binghamton.edu's password: 
+Connection closed by 128.226.114.206 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+eshapir9@g7-36:~/projects$ mkdir -p[K[K[K[K[K[K[K[Kgit clone https://github.com/shapiroe2019/project01.git
+Cloning into 'project01'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+eshapir9@g7-36:~/projects$ cd ~
+eshapir9@g7-36:~$ d[Kcd ..
+eshapir9@g7-36:/home$ cd[K[Kcd ~
+eshapir9@g7-36:~$ ln -s ~/projects/i240? .
+eshapir9@g7-36:~$ cd ~/i240X
+bash: cd: /home/eshapir9/i240X: No such file or directory
+eshapir9@g7-36:~$ cd i240x[KX
+bash: cd: i240X: No such file or directory
+eshapir9@g7-36:~$ ;s
+bash: syntax error near unexpected token `;'
+eshapir9@g7-36:~$ ls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd ..[K[K[K[K[Kcd ..
+eshapir9@g7-36:/home$ ;[Kls
+aabrey1      cviezel1	       jlei23	    nananth1	       slellis1
+aagraw11     cwetzel2	       jlevin38     nanohub	       slin100
+aaharon1     cwickiz1	       jli452	    nate	       slin111
+aakin1	     cwong11	       jli461	    nayan1	       sliu
+aalamer1     cyang58	       jliebe12     naydin2	       sliu22
+aambilw1     cybersec	       jlin129	    nayef	       slnu1
+aamer	     czhang27	       jlin269	    nbellam1	       sloscal1
+aandhar2     czhou5	       jliu212	    nbethan1	       smahmud2
+aanveka2     dallen9	       jloew	    nboeker1	       smanne1
+aashraf1     danzelo1	       jlouie2	    nboyd3	       smartpark
+abalkum      davehall	       jlu56	    nburzyn1	       smasara1
+abelmna1     davehallldap      jmcmah10     ncilsal2	       smason8
+abeltre1     davidl	       jmeguir1     ncorvi1	       smestry1
+abet	     dbalkan	       jmessin2     ndagost1	       smircha1
+abetrev      dbottch1	       jmitche6     ndedios1	       smoore4
+abettest     dchhabd1	       jmohrma1     ndefeli2	       smorram1
+abhagwa1     dcordei1	       jmontgo4     ndeshmu1	       smorri11
+abharan1     ddas1	       jmontgo5     NFS11	       smukka1
+abhat3	     ddefazi1	       jocampo1     ngarg3	       snagarak1
+abixby1      ddemicc1	       josgood2     ngawade1	       snatu1
+abloodg1     ddesai9	       joyedap1     ngoyal1	       snimhan1
+abommin1     ddhuri1	       jpan33	    ngreene5	       software
+abozkur1     ddoddag1	       jparikh1     ngrosso1	       soshay1
+aburke5      devtyushkin       jpark349     ngujar1	       sozdemi2
+acanino1     dfan2	       jphilem1     ngupta4	       sozden1
+acarter6     dfeinma1	       jquezad1     nhofman1	       spalshe1
+aceylan1     dferna15	       jramli1	    nilton	       spark215
+achaud12     dfitzge3	       jrandha1     nkimura	       sparra2
+achaud15     dfletch1	       jraskin3     nkokne1	       sparuch1
+achaudh9     dgarden1	       jren18	    nkommur1	       spatwa1
+achavan4     dgaviol1	       jrising1     nli19	       spradha1
+achen172     dgeorge7	       jrodr151     nmarman1	       sraghav2
+acheseb1     dglazer1	       jrosen46     nmishra1	       srally1
+achhabr1     dgleaso2	       jrosen52     nmonast1	       srao12
+achotal1     dgouvou1	       jrosswog     npatel62	       srapell2
+aclancy1     dgriffith1        jrothbe3     npatel64	       sraut1
+acmweb	     dharper1	       jryder	    npatil5	       srazak
+acohen13     dhintz1	       jsanch49     npelleg1	       srevade1
+acohen89     dhuang43	       jschmit2     npeters1	       sriram
+acullo1      dickman	       jseiber1     npoda1	       srupnar1
+acurrer1     dima	       jshaikh1     nreisch1	       ss1
+adesu1	     dirwin1	       jsharke	    nrogosz1	       ssahabh1
+adhruv1      djacobs7	       jsiegel6     nruizto1	       ssahani1
+adilliw1     djagtap1	       jsimon7	    nsamant1	       ssalick1
+admread      djhender	       jsimone1     nsane3885	       ssamate1
+adnan	     djwillia	       jskovro1     nsharm11	       ssanaga1
+adogana1     dkim17	       jstanle2     nstecyn1	       ssankhe1
+advweb	     dkunkel	       jstein27     ntinen	       ssarems1
+aeghbal1     dlam15	       jsteinberg   nuruchi1	       ssawwan1
+aeker1	     dli114	       jstpier1     nvallej1	       ssaxena3
+aevans1      dlockye1	       jstrohm1     nvander1	       ssayyad1
+afarrel3     dlundgren	       jstruck1     nwallin1	       ssenkes1
+afelsen3     dmacejk1	       jsu6	    nxu4	       ssenthil
+afergus6     dmaisur1	       jsuhr2	    oakgrove	       sshah90
+aferrei3     dmeisel1	       jsutton3     oalamut1	       ssharm53
+agarcia3     dmosess1	       jswift3	    ocinar1	       sshin
+agarcia4     dmu1	       jszacha1     ocummin1	       ssing117
+agarrit1     dnair3	       jterner1     ohatwal1	       ssingh99
+ageorg39     dnarasi1	       jthakka1     oiffert1	       ssivaku1
+agermos1     doneal1	       jthoma64     okilic1	       ssultan6
+agill10      dpan8	       jtricoz1     okircan1	       sswetha
+agim1	     dpaskal1	       jvail1	    okulkar4	       stammis1
+agjonba1     dpatel39	       jwang36	    omavitu1	       stapadi1
+agoetz3      dpatil2	       jweacho1     onur	       stapkee1
+agoncal2     dpaul12	       jweng8	    oolojed1	       star
+agrace2      dpetzol2	       jwetzel1     optiweb	       steflik
+agreenb3     dpham4	       jwhitak4     osanile1	       sthorat2
+agross22     dreyes12	       jwhite48     osayili1	       sthorat3
+aguarin3     drichards1        jwill128     osnetsvn	       stoke1
+agujara1     drseuss	       jwolter1     osweb	       studio
+agummal1     dryan6	       jwong123     oudawan1	       studio.nobackup
+aheffer1     dschroe1	       jwoyevo1     pacts	       sunyibo
+ahoriha1     dschust2	       jwu166	    pdeshpa2	       svibhut1
+ajain13      dskoda1	       jwu6	    pdeshpa3	       svishwa2
+ajain35      dtelson1	       jyadav1	    pdexter1	       swaghma1
+ajasper      dthakur1	       jyao	    pfeng1	       swang130
+ajimen29     dthatch1	       jyao6	    phao3	       swang206
+ajinete1     dtierne2	       jyoo45	    phdweb	       swang214
+ajohan78     dtimmer1	       jzee2019     phil	       sweimer1
+ajoshi1      dtownle1	       jzhang	    phmsvn	       syarram1
+akadu1	     dwalcot1	       kagyapo1     pixelcode	       syeung10
+akafore1     dwalter2	       kandrad2     pkandhi1	       sysadmin
+akaleli1     dwang84	       kang	    pkapoor2	       syudhoa1
+akancha1     dyang32	       kartik	    pkariya1	       szaman5
+akapur4      dzhang46	       kbahulkar    pkarthi1	       szhai2
+akayhan1     eadler1	       kbaumst2     pkaushi1	       szhan188
+akenjal1     eaktas	       kchanda2     pkulkar3	       szhang
+akenned8     ealdreabi	       kchings1     plnu2	       szhu5
+akhot1	     eates1	       kchiu	    plonkar1	       tabdazi1
+akulka17     ebasan1	       kcitlak1     pmadden	       tagrawa1
+akunz3	     ebaule1	       kcox4	    pmaino1	       talon1
+alal2	     ebenz1	       kdamodh1     pmcgoug1	       tameesh
+alee884      ebonzek1	       kdayala1     pokurog1	       tbabako1
+alee889      ebreban1	       kdeshpa5     ppagar1	       tballin1
+alevenb1     ecetine2	       kdh	    pparekh1	       tbarten1
+aliang30     eciraco1	       kdoughe2     pparmar2	       tbartens
+aliu81	     ecodrin1	       kdublin1     ppatel3	       tbhagoo1
+alongo5      ecoolid1	       kfang2	    ppatel85	       tbrentar
+amadnic2     edede1	       kferna11     ppatel95	       tbrown57
+amahaja4     edurney1	       kgaffne1     ppatil7	       tchan29
+amathe13     eelliot4	       kgajwan1     ppawar3	       tcheng8
+amccart9     eetheri1	       kgell1	    ppriyam1	       tchu4
+amchugh2     eezor1	       kghose	    pqi1	       tdevadit
+amcmanu4     efergus3	       kgiampo1     prasanna	       test
+ameya	     egeorge8	       kgoel1	    preddir1	       tfan4
+amillik1     ehaddad1	       kgulve1	    preddyl1	       tfasano1
+amishr11     ehuang35	       khaled	    project	       tgabrie2
+anaik4	     einal1	       khanson3     projects	       tgilber5
+anand	     eisikte1	       kharras	    projects.nobackup  tgisi1
+anayak2      ejang1	       khenneb1     psaha4	       tgonzag1
+aneeman      elakic1	       khill9	    psaha5	       tgrusze1
+aneesh	     elancer1	       khirana1     psahu1	       tgundel1
+anikam1      elanger4	       khsieh3	    psammon1	       tgurung2
+ankit	     elurye1	       kjayapr1     psehraw1	       thalai1
+aorella1     emarang1	       kjones47     psemegr1	       thoa1
+apadman1     emattison	       kkasara1     pshang1	       thoelze1
+apatel	     emcnier2	       kkoka1	    pshrest1	       thorowi1
+apateri1     emergepl	       kkulkar3     psilves1	       thung1
+aperlow1     emoelle2	       kkumawa1     psin	       thur1
+aplotko1     engage	       kkurtz	    psingh43	       ticket
+aputnal1     epalani1	       klewis24     psinha1	       tkapadi1
+aquach1      epona	       kliu20	    ptanpur1	       tkatz1
+arahma	     erdil	       kmahmou1     ptezcan1	       tkump1
+aravind      eserdar1	       kmanriq1     pthakka4	       tli16
+arayala1     eshapir9	       kmore4	    ptilley1	       tliu76
+arizzo10     estern7	       kmoshie1     puppula1	       tloja1
+arohill1     et		       kna3	    pvalenta	       tlucher1
+artir	     eterrac1	       knadeem1     pwakodi1	       tman1
+asahai1      etilden	       knip1	    pwalke1	       tmarder1
+asawant2     evorosh1	       koneill7     pwang22	       tmatusz1
+asawwal1     eway1	       kong	    pweb	       tpmsim
+aschwa30     eyalcin1	       kpathak1     pwilber1	       tquiles1
+aselvan1     eyavasc1	       kphill11     pyang	       trecupe1
+aservet1     ezagnus1	       kpierce5     pzhao3	       tredban1
+asharif1     faculty	       kragava1     qjia4	       tsharma6
+asharm14     faculty.nobackup  kramana1     qliang8	       tshores1
+asharm47     facweb	       kruan1	    qxiong1	       tsrivas1
+ashimiz1     fafram1	       ksaini1	    qzhang61	       tstache1
+ashimiz2     falmato1	       ksawant1     raj		       tsteige1
+ashinde3     fantona1	       ksingh35     rambast1	       tton1
+ashiral1     fbrione1	       ksingh42     ramsurat1	       tunsel1
+asing134     fchai1	       kstigle1     rbadada1	       twang61
+astensl1     femmanu1	       ksun1	    rberlan1	       twellin1
+astjohn      find	       kthote1	    rbey1	       twilli81
+astrong3     fitz	       ktiao1	    rbhowmik	       twojtuk1
+athaile1     fmri	       kusovski     rblazej1	       twrigh13
+athakur2     foreman	       kvartak2     rchen102	       txu
+atiwari3     forweb	       kwadeka1     rcheung5	       tzhao7
+atom2	     fscott1	       kwallac6     rchowda1	       ubalci1
+atweedy1     ftahmas1	       kwan2	    rcomerf1	       udeshpa1
+auy2	     gadu	       kwill113     rdelval1	       uergash1
+avanroi1     gaic	       kwrite1	    rdhuri1	       ukayaal1
+avenetos1    gaming	       kyan12	    reckert	       umrigar
+avinan	     garrison	       kyi3	    regress	       upe
+aviswan3     gbejara1	       lander	    remadm	       upuvvad1
+avora4	     gbenyis1	       larson	    rerinfo1	       urahman1
+awalley1     gbiyani1	       lcanale2     reswara1	       usatlas1
+awaring1     gchen21	       lcoats1	    reu		       usatlas2
+awest3	     gcrl	       ldo	    reu09	       uscms01
+awilso16     geert	       legion	    reustac1	       uscms02
+aworm1	     ggonzal9	       legion2	    rfujita1	       vbadagu1
+ayenugu1     ghlp	       lenny	    rgeary1	       vbakshi1
+ayeung9      ghose	       levliya1     rgirong1	       vbandew1
+azaccag1     ghyan	       lgustaf1     rgollap1	       vbeauge1
+balandi1     gkumar1	       lhsueh1	    rgonzal	       vbhosal1
+baltar	     gliu10	       lijun	    rgunczl1	       vchaska1
+barry	     globus	       liymn	    rhainin1	       vdevara2
+bbeeral1     gmore3	       lkendal1     richardsond        vinkolar
+bbrea1	     gmyers	       lkollur1     rimai1	       vkatrag2
+bbuchan1     grad	       llasurd1     rimbro1	       vkumari1
+bchadha1     grad.nobackup     llu17	    rjoseph3	       vlsiweb
+bchen111     grase	       lmanwan1     rkaur21	       vmalcev1
+bchen114     grattih1	       lok	    rkelley2	       vmunish1
+bchoudh4     gredozu1	       lornawel     rklein14	       vparekh1
+bchrobot     grid	       lrosenb1     rkugver1	       vragovs1
+bcohada1     gridex	       lsc01	    rkulka22	       vsingh2
+bdeore1      gridweb	       lsearsangel  rlangen1	       vtran6
+bdevrie1     gsivana1	       lsunny1	    rlevass1	       vyadav1
+bdikmen1     gsoweb	       ltaveir1     rlotlik1	       watadv
+bdobriy1     gsteinb1	       lwisdom1     rmarvin1	       wbennet1
+beaumont     gstodda1	       lxu31	    rmccaul1	       wcornej1
+bestus1      gtan	       lyadagi1     rmccorm4	       wdai
+bgrant11     gtaskin1	       lyalcin1     rmei6	       wduan1
+bharari1     guydosh	       lyu	    rmeliti1	       weinscgg
+bhogan9      gvalenc2	       maber1	    rmittal1	       welu
+bizar1	     gwang23	       maguila2     rmusale1	       whuebne1
+bkalayc1     gwilber1	       mallingt     rnatara2	       wkeller3
+bkeuria1     gwint1	       maple	    robotics	       wkenned1
+bklayma1     gyerrad1	       marsene1     rorourk2	       wleng1
+blackburn    hahuja1	       marss86	    rosew	       wliu5
+blee75	     halzein1	       marysomma1   rpena9	       wliu68
+blewis9      haygan1	       matlab	    rpokhar1	       wmeng
+bliebe1      hbagdi1	       maziz3	    rquinli1	       wni
+bliew1	     hbalu1	       mbagonis5    rrausha1	       wyang
+blong	     hbrown10	       mbayhoc1     rriess1	       wzhangc1
+blu20	     hburkha1	       mbellus1     rriley	       wzhao1
+bmarti38     hburns3	       mbradsh3     rsaptar2	       xchen269
+bni2	     hchen113	       mcaldro1     rsaraf1	       xdeng7
+bpoliks      hdesai1	       mcetin3	    rsaxena3	       xgao1
+bpreise1     head	       mchen12	    rsayers1	       xgarcia2
+brathke1     hfu11	       mcohen76     rshahul1	       xguo38
+brichar7     hgarg1	       mcole8	    rshand1	       xianli
+brobergj     hjia3	       mdamiat1     rsharpe1	       xli180
+brood	     hkang	       mdang1	    rshendl1	       xli210
+brose7	     hkilic2	       mdelgad1     rsmith23	       xliang24
+brothbe3     hkulkar1	       mdevend1     rsomapu1	       xluo22
+bsadhna1     hlauder1	       mdobies1     rsumit	       xpeng
+bsaliba1     hlum1	       meng	    rtes-mc	       xshi1
+bsendir1     hmahaja1	       merwyn	    rthaiva1	       xu_haohang
+bstace1      hmanda1	       mfarrel8     rthete1	       xwang247
+bsweet2      hmense1	       mfata3	    rwang4	       xwei
+btas1	     hmulla1	       mforcella    rwright3	       xwu30
+btaylor1     hnikam1	       mfoster7     ryder	       xwu9
+bugzilla     hoeppner	       mgadi1	    rzaveri1	       xyu44
+bvuduth1     hpacher1	       mghayoumi    rzhang	       xzhan215
+bwang2	     hparmar1	       mghosal1     rzheng14	       xzhan244
+bweiss1      hpham3	       mgogats1     sacosta8	       xzhang7
+bwong28      hqin4	       mgomez4	    sagrawa4	       xzhang99
+byan2	     hrasal1	       mgovinda     sahire1	       yanwang
+byang20      hribic1	       mgreen	    salqaht1	       yaoliu
+bzee1	     hrode1	       mgupta3	    sameer	       ybai4
+bzhang73     hroeder1	       mhems1	    samgrid	       ychandi1
+cadathlon    hsloan1	       mhubli1	    samiri1	       ychen161
+canlin	     hstein6	       mike	    samoore	       ychen415
+capsweb      huilu	       millerti     santobu	       ydaggup1
+cauchym      hvadoda1	       mis	    sarnold4	       yding25
+cayachi1     hwang161	       mjain8	    saswani1	       yguo71
+cazukwu1     hwu71	       mjiang39     satoshi	       yhan1
+cbanvar1     hxiao4	       mjones46     saurabh	       yhu15
+cbartol1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbehan1      hyi2	       mkayaalp     sbadri1	       yhuan171
+cbond2	     hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbrugna1     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cchen17      hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen8	     hzou1	       mlatypo1     sbdc	       yjagdal1
+cchiauz1     ids-web	       mlewis	    sbengal2	       yjiang5
+cchilds1     igomez1	       mlin71	    sbettad1	       yjun1
+cchoi20      igoreli1	       mliu56	    sblack3	       ykucuk1
+ccipp1	     ikilinc1	       mlrg	    sboggar1	       yli241
+ccloss1      iliano	       mmadhan1     sbohn1	       yli418
+ccui5	     indangered        mmallow1     sbommal1	       ylin
+ccui7	     intrieri	       mmangal1     sbourke1	       ylin145
+cdaware1     iperdom1	       mmillar3     sbravo1	       ylin153
+cdf	     isarfat1	       mmille60     scanavan	       yliu158
+cdimegl1     israat	       mmuffol1     scao16	       yliu377
+cdonovi1     ivdgl	       mnorton1     schaska1	       yliu401
+cdowdle1     iwobi	       mnussba2     schaud16	       ylu0
+cfiutak1     jabbott3	       mobicom2016  schen232	       ypan13
+cglashe1     jalbert5	       molavar1     schinch1	       ypan3
+cgopina1     jalexa10	       monalisa     scogay1	       ypatel9
+cguo9	     jamjoom	       mozkaya1     scraver	       ysaglam1
+cgupta	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cguvenc1     jarora2	       mparker4     sdesai12	       ysun106
+chanusa      jawayan1	       mparlaw1     sdesai13	       ysun59
+chao	     jbabbit1	       mpatel43     sdesai14	       ytang4
+chart7	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+cherna19     jbarret3	       mperaza1     sdhanas1	       ytao15
+chouck	     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chuang31     jberg3	       mplohet1     sdias1	       yxu
+ciweb	     jburns11	       mpressi1     sdinc1	       yxu133
+cjenkin1     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjian1	     jcen3	       mreale	    sdoski1	       yyang202
+cjiang21     jchen249	       mreid9	    sdss	       yzhan202
+cjoaqui1     jchen441	       mriver25     secarch	       yzhan401
+cjones43     jcipoll1	       mrldata	    secweb	       yzhang25
+ckshirs1     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckulkar2     jcope1	       mroshid1     sgallag3	       zaugust1
+clandgr1     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+cli22	     jdaley2	       mruffne1     sgcpu	       zdu
+clin18	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clindsa1     jderder1	       mschult7     sgowdra1	       zfield2
+cliu118      jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+clow1	     jditkof1	       msha	    sgrimm2	       zge3
+cmachaf1     jdua1	       mshah38	    sgupta38	       zguo
+cmcborr1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmmiller     jeimer1	       msheldo2     shan	       zhangying
+cmontgo1     jeipp1	       mshelto3     shane	       zhongfei
+cmoore2      jelwell	       msim	    shanson1	       zhuang28
+cmunro1      jelwell1	       mslocum1     shanuma1	       zhuang80
+colinb	     jeymer1	       mspano2	    shegde1	       ziegler
+cpandit1     jfeinla1	       msweb	    shuhong	       zkabari1
+cpingal1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cquelle3     jgallia1	       mtan23	    sigda	       zli137
+cs350	     jgoldb42	       mthakka2     simple	       zli160
+cs441-test   jgumien1	       mthanga1     simplepath	       zli191
+cs540sw      jgwak1	       mtullo1	    sjain13	       zli192
+csabet01_oc  jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet02_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet03_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+cschnei3     jhastie1	       mvani1	    skaldat1	       zqiu4
+csherla1     jherath1	       mwarfor1     skalidi1	       zseymou1
+csiegle1     jhertik1	       mweb	    skbu007	       zshu1
+csimak1      jhicks	       mwerner7     skolhap1	       zwang252
+cs-ipc	     jhuyghu1	       myan28	    skonath1	       zwen7
+csperry1     jjacob44	       myuksek1     skorade1	       zzhan145
+csweb	     jjeanba2	       mzheng47     skothap1	       zzhan150
+ctran20      jjjcart	       mz-matlab    skremli1	       zzhan218
+ctrembl1     jjose1	       nabate1	    skumar	       zzhang27
+cutler	     jkassne1	       nael	    skunz1
+eshapir9@g7-36:/home$ eshapir9[K[K[K[K[K[K[K[Kcd eshapir9
+eshapir9@g7-36:~$ ls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd i240?
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ cd 'i240?'
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ cd 'i240?'
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ cd ~
+eshapir9@g7-36:~$ ln -s ~/projects/i240?
+eshapir9@g7-36:~$ ;s[K[Kls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd 'i240?'
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ cd ~
+eshapir9@g7-36:~$ ln -s ~/projects
+ln: failed to create symbolic link './projects': File exists
+eshapir9@g7-36:~$ ;[Kln -s ~/projects/i240X
+eshapir9@g7-36:~$ ls
+a.out	 Desktop    hello.c    multTable.c  pound.c    tmp
+Arduino  Documents  i240X      Music	    projects   Videos
+cs120	 Downloads  lab        Pictures     Public
+cs120.c  hello	    multTable  pound	    Templates
+eshapir9@g7-36:~$ cd ~/i240X
+bash: cd: /home/eshapir9/i240X: No such file or directory
+eshapir9@g7-36:~$ cd i240X
+bash: cd: i240X: No such file or directory
+eshapir9@g7-36:~$ ls
+a.out	 Desktop    hello.c    multTable.c  pound.c    tmp
+Arduino  Documents  i240X      Music	    projects   Videos
+cs120	 Downloads  lab        Pictures     Public
+cs120.c  hello	    multTable  pound	    Templates
+eshapir9@g7-36:~$ cd lab
+eshapir9@g7-36:~/lab$ ls
+lab2  lab2.c
+eshapir9@g7-36:~/lab$ cd ..
+eshapir9@g7-36:~$ l[Kcd i240X
+bash: cd: i240X: No such file or directory
+eshapir9@g7-36:~$ cd ~/i240X
+bash: cd: /home/eshapir9/i240X: No such file or directory
+eshapir9@g7-36:~$ cd ..
+eshapir9@g7-36:/home$ cd ..
+eshapir9@g7-36:/$ ls
+backup	    initrd.img		    mnt			 srv
+bin	    initrd.img.old	    nslcd.conf.linux	 sys
+boot	    lib			    opt			 tmp
+dev	    lib32		    opt.local		 usr
+etc	    lib64		    opt.old		 var
+home	    libnss-ldap.conf.linux  pam_ldap.conf.linux  vmlinuz
+home1	    libx32		    proc		 vmlinuz.old
+home.local  lost+found		    root
+home.save   media		    run
+import	    microchip		    sbin
+eshapir9@g7-36:/$ cd home
+eshapir9@g7-36:/home$ cd eshapir9
+eshapir9@g7-36:~$ ls
+a.out	 cs120.c    Downloads  lab	    Music     pound.c	Templates
+Arduino  Desktop    hello      multTable    Pictures  projects	tmp
+cs120	 Documents  hello.c    multTable.c  pound     Public	Videos
+eshapir9@g7-36:~$ cd projects
+eshapir9@g7-36:~/projects$ cd ~
+eshapir9@g7-36:~$ ln -s ~/projects/i240? .
+eshapir9@g7-36:~$ ls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd ~/i2[K[K[K[K'i240?'
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ ;s
+bash: syntax error near unexpected token `;'
+eshapir9@g7-36:~$ mk[K[Kcd projects
+eshapir9@g7-36:~/projects$ ls
+project01
+eshapir9@g7-36:~/projects$ mkdir -p ~/projects
+eshapir9@g7-36:~/projects$ cd ~/projects
+eshapir9@g7-36:~/projects$ git clone ln -s ~/projects/i240? .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/shapiroe2019/project01.git
+fatal: destination path 'project01' already exists and is not an empty directory.
+eshapir9@g7-36:~/projects$ cd ~
+eshapir9@g7-36:~$ ln -s ~/projects/i240?
+eshapir9@g7-36:~$ c[Kls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd 'i240?'
+bash: cd: i240?: No such file or directory
+eshapir9@g7-36:~$ cd ~/i240X
+bash: cd: /home/eshapir9/i240X: No such file or directory
+eshapir9@g7-36:~$ cd ~/i240a
+bash: cd: /home/eshapir9/i240a: No such file or directory
+eshapir9@g7-36:~$ cd ~/i24[K[K[K[K[K[K[K[Kls
+ a.out	   Desktop     hello.c	   multTable.c	 pound.c     tmp
+ Arduino   Documents  'i240?'	   Music	 projects    Videos
+ cs120	   Downloads   lab	   Pictures	 Public
+ cs120.c   hello       multTable   pound	 Templates
+eshapir9@g7-36:~$ cd projects
+eshapir9@g7-36:~/projects$ ls
+project01
+eshapir9@g7-36:~/projects$ cd ~i/2[K[K[K/i240a
+bash: cd: /home/eshapir9/i240a: No such file or directory
+eshapir9@g7-36:~/projects$ cd ~
+eshapir9@g7-36:~$ ^C
+eshapir9@g7-36:~$ ln -s ~/projects/i240? .[1P[1@0[C[1P .a .[C
+eshapir9@g7-36:~$ cd ~/i240a
+bash: cd: /home/eshapir9/i240a: No such file or directory
+eshapir9@g7-36:~$ cd i240a
+bash: cd: i240a: No such file or directory
+eshapir9@g7-36:~$ ls
+a.out	 Desktop    hello.c    multTable.c  pound.c    tmp
+Arduino  Documents  i240a      Music	    projects   Videos
+cs120	 Downloads  lab        Pictures     Public
+cs120.c  hello	    multTable  pound	    Templates
+eshapir9@g7-36:~$ cd i240a
+bash: cd: i240a: No such file or directory
+eshapir9@g7-36:~$ rm i240a
+eshapir9@g7-36:~$ cd ~/i2[K[K[K[Kproject1
+bash: cd: project1: No such file or directory
+eshapir9@g7-36:~$ cd projects
+eshapir9@g7-36:~/projects$ cd project01
+eshapir9@g7-36:~/projects/project01$ git status -s
+eshapir9@g7-36:~/projects/project01$ git commit -a -m "Completed lab0"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+eshapir9@g7-36:~/projects/project01$ go[Kit push
+Username for 'https://github.com': eshapir       shapiroe2019
+Password for 'https://shapiroe2019@github.com': 
+Everything up-to-date
+eshapir9@g7-36:~/projects/project01$ git co[K[K-m[K[Kcommit -a [K[Km "completed lab0"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+eshapir9@g7-36:~/projects/project01$ got [is[K[K[K[K[K[Kit push
+Username for 'https://github.com': eshapir9@binghamton.edu
+Password for 'https://eshapir9@binghamton.edu@github.com': 
+Everything up-to-date
+eshapir9@g7-36:~/projects/project01$ ls -dl ~/cs240 ~/i240X[Ka
+ls: cannot access '/home/eshapir9/cs240': No such file or directory
+ls: cannot access '/home/eshapir9/i240a': No such file or directory
+eshapir9@g7-36:~/projects/project01$ ls -dl ~/cs240 ~/i240X[K[K[K[K[Kproject01
+ls: cannot access '/home/eshapir9/cs240': No such file or directory
+ls: cannot access '/home/eshapir9/project01': No such file or directory
+eshapir9@g7-36:~/projects/project01$ ls -dl ~/cs240 ~/i240X[K[K[K[K[K[rpk[K[K[K[Kprojects/project01
+ls: cannot access '/home/eshapir9/cs240': No such file or directory
+drwxr-xr-x 3 eshapir9 eshapir9 45 Jan 23 10:50 /home/eshapir9/projects/project01
+eshapir9@g7-36:~/projects/project01$ ls -dl ~/cs240 ~/i240X[Ka
+ls: cannot access '/home/eshapir9/cs240': No such file or directory
+ls: cannot access '/home/eshapir9/i240a': No such file or directory
+eshapir9@g7-36:~/projects/project01$ cd ~/i240a
+bash: cd: /home/eshapir9/i240a: No such file or directory
+eshapir9@g7-36:~/projects/project01$ git che[K[K[K[K[K[K[Kcd p[K[K[K[Kls
+README.md
+eshapir9@g7-36:~/projects/project01$ cd[K[Kls[K[Kgit checkout -b lab0
+Switched to a new branch 'lab0'
+eshapir9@g7-36:~/projects/project01$ mkdir -p submit
+eshapir9@g7-36:~/projects/project01$ exit
+
+Script done on 2020-01-23 11:12:46-05:00 [COMMAND_EXIT_CODE="0"]
